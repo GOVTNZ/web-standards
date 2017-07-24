@@ -195,7 +195,7 @@ For each of these content types, aim to identify at least a couple of pages with
 <div class="details" markdown="1">
 
 ### 5. Links to non-HTML files
-{% include_relative tests/usability/links-to-non-HTML-files.md %}
+{% include_relative tests/usability/links-to-non-html-files.md %}
 
 </div>
 
