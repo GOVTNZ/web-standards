@@ -45,7 +45,7 @@ The following are tests that anyone can perform with any website to test against
 <div class="details" markdown="1">
 
 ### 5. Links to non-HTML files
-{% include_relative tests/usability/links-to-non-HTML-files.md %}
+{% include_relative tests/usability/links-to-non-html-files.md %}
 
 </div>
 
