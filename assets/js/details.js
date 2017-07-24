@@ -55,13 +55,18 @@ $(document).ready(function(){
 			}}
 		);
 	}
-//get all containers with class="details"
-	var $allDetails = $('.details');
-	//for each details container
-	$allDetails.each(function() {
+//get all containers with class="details", and for each one...
+	$('.details').each(function() {
 		$details = $(this);
 		$summary = $details.find(">:first-child").wrap('<summary></summary>');
-		$details.wrapInner('<details></details>');
+		var detailsClass = "";
+		if ($details.hasClass("top")) {
+			detailsClass="top";
+		} else if ($details.hasClass("test")) {
+			detailsClass="test";
+		}
+		$details.wrapInner('<details class="' + detailsClass + '"></details>');
+		$details.contents().unwrap();
 	});
 	details();
 });
