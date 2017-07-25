@@ -8,43 +8,41 @@ draft: true
 
 ## 1. Overview
 
-<div class="ed">Blurb about the web standards and WCAG.</div>
+### New Zealand Government Web Standards
 
-This document details what someone needs to know to conduct the 2017 Web Standards Self-Assessment. It outlines the:
+The New Zealand Government Web Standards (“Web Standards”) are made up of 2 individual standards:
 
-* tools needed and how to use them
-* tests required as part of the Self-Assessment
-* extra guidance for people less familiar with web accessibility.
+1. The Web Accessibility Standard is a profile of the World Wide Web Consortium’s (W3C) Web Content Accessibility Guidelines v2.0 (WCAG 2.0). WCAG 2.0 is at the heart of web accessibility requirements in a number of jurisdictions including Australia, Canada and the United Kingdom. The New Zealand profile defines some custom exceptions to WCAG 2.0 for use within the New Zealand Government. 
 
-### What we’re doing
+2. The Web Usability Standard is a collection of policy-related requirements that draw on other frameworks such as the Privacy Act, the New Zealand Government Open Access and Licensing Framework, and a small number of best practices identified by the Web Standards Working Group of cross-agency web practitioners. 
 
-The 2017 Self-Assessment is reducing the number of success criteria to be tested. Instead it focuses on the most common issues that were identified in the 2014 Self-Assessments. 
+### 2017 Self-Assessment Methodology
+
+The 2017 Web Standards Self-Assessments greatly reduce the number of tests compared to the 2014 Self-Assessments. The 2017 Self-Assessment Methodology does not comprehensively test against all requirements of the Web Accessibility and Web Usability Standards, nor does it deliver a formal compliance score or ranking. Instead, it outlines a series of tests whose results are an actionable indicator of how well web content is meeting the intent of the Web Standards.
+
+This document details what someone needs to know to conduct the 2017 Annual Web Standards Self-Assessment. It outlines the:
+
+*  tools needed and how to use them 
+*  tests required as part of the Self-Assessment 
+*  extra guidance for people less familiar with web accessibility. 
+
+#### Web Standards Test Suites
+
+The tests in the new Annual Self-Assessment Methodology come from two simple and reusable test suites, one for each of the two Web Standards. The Web Usability Standard Test Suite includes a test for each of that Standard’s requirements. As those requirements are relatively few and straightforward, this test suite has been incorporated wholesale into the Annual Self-Assessment Methodology. 
+
+The Web Accessibility Standard Test Suite combines an automated test tool with a collection of easy-to-perform manual procedures that test for common accessibility barriers and issues. As time goes on, we’ll build up the Web Accessibility Standard Test Suite with more tests addressing a greater number of issues. This year, the 2017 Self-Assessment Methodology will include only a subset of the Web Accessibility Standard Test Suite that is mainly focused on the most common issues identified in the 2014 Self-Assessments. 
+
+These two Web Standards Test Suites can be used, as they are for these Annual Self-Assessments, to identify and measure improvement over time. More practically, they can also be used anytime and with any web content to:
+
+*  identify, prioritise, and fix notable accessibility and other Web Standards issues 
+*  report existing issues to management to get their support for training, remediation, resources, etc. 
+*  raise staff knowledge and skill in web accessibility   
+*  test web content built by external companies for common accessibility issues 
+*  apply the testing process throughout a website’s development lifecycle to ensure it is continually accessible. 
 
 ### What it doesn’t do
 
-These tests can't tell you if your website is fully accessible or usable. If you want a full assessment, you need to test against all the requirements in the Web Accessibility and Web Usability Standards.
-
-### How and when to use it
-
-As well as using this document to conduct the 2017 Self-Assessment, organisations can also use it to:
-
-* prioritise areas to improve
-* report existing issues to management to get their support for training, remediation, resource allocation etc.
-* raise web accessibility knowledge and skills among their staff
-* test websites built by external companies for common accessibility issues
-* apply the testing process throughout a website’s development lifecycle to ensure it is continually accessible.
-
-### Assessment results
-
-The Self-Assessment is meant to give organisations an indication of how well they are meeting the Web Standards, rather than how they rank against other organisations. The annual self-assessments will give them a way to measure their improvement over time.
-
-**What you can do with the results**
-
-The tests in this methodology are pretty black and white. There’s no weighting or percentage pass/fails. If you pass a test, it means all the content on that page passes. On the other hand, if a page fails only 1 of the 3 requirements involved in particular test, the page as a whole fails that test. Note down for your own use the things that need fixing and you can go back later and fix them.
-
-### Future plans
-
-We’re planning to review old issues and address new ones with different sets of tests every year. Over time we’ll build up a library of tests that addresses a greater number of Web Standards requirements.
+The Annual Self-Assessment Methodology can't tell you if your website is fully accessible or usable. If you want a full assessment, you need to test against all the requirements in the Web Accessibility and Web Usability Standards themselves.
 
 </div>
 
