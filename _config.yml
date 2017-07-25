@@ -28,3 +28,4 @@ markdown: kramdown
 
 # Exclude
 exclude: ["*/node_modules"]
+
