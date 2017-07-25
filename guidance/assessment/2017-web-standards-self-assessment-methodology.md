@@ -10,11 +10,11 @@ draft: true
 
 ### New Zealand Government Web Standards
 
-The New Zealand Government Web Standards (“Web Standards”) are made up of 2 individual standards:
+The [New Zealand Government Web Standards](https://webtoolkit.govt.nz/standards/) (“Web Standards”) are made up of 2 individual standards:
 
-1. The Web Accessibility Standard is a profile of the World Wide Web Consortium’s (W3C) Web Content Accessibility Guidelines v2.0 (WCAG 2.0). WCAG 2.0 is at the heart of web accessibility requirements in a number of jurisdictions including Australia, Canada and the United Kingdom. The New Zealand profile defines some custom exceptions to WCAG 2.0 for use within the New Zealand Government. 
+1. The [Web Accessibility Standard](https://webtoolkit.govt.nz/standards/web-accessibility-standard/) is a profile of the World Wide Web Consortium’s (W3C) [Web Content Accessibility Guidelines v2.0](https://www.w3.org/TR/WCAG20/) (WCAG 2.0). WCAG 2.0 is at the heart of web accessibility requirements in a number of jurisdictions including Australia, Canada and the United Kingdom. The New Zealand profile defines some custom exceptions to WCAG 2.0 for use within the New Zealand Government. 
 
-2. The Web Usability Standard is a collection of policy-related requirements that draw on other frameworks such as the Privacy Act, the New Zealand Government Open Access and Licensing Framework, and a small number of best practices identified by the Web Standards Working Group of cross-agency web practitioners. 
+2. The [Web Usability Standard](https://webtoolkit.govt.nz/standards/web-usability-standard/) is a collection of policy-related requirements that draw on other frameworks such as the [Privacy Act](https://www.privacy.org.nz/the-privacy-act-and-codes/privacy-act-and-codes-introduction/), the [New Zealand Government Open Access and Licensing Framework](https://www.ict.govt.nz/guidance-and-resources/open-government/new-zealand-government-open-access-and-licensing-nzgoal-framework/), and a small number of best practices identified by the Web Standards Working Group (since discontinued) of cross-agency web practitioners . 
 
 ### 2017 Self-Assessment Methodology
 
@@ -30,9 +30,9 @@ This document details what someone needs to know to conduct the 2017 Annual Web 
 
 #### Web Standards Test Suites
 
-The tests in the new Annual Self-Assessment Methodology come from two simple and reusable test suites, one for each of the two Web Standards. The Web Usability Standard Test Suite includes a test for each of that Standard’s requirements. As those requirements are relatively few and straightforward, this test suite has been incorporated wholesale into the Annual Self-Assessment Methodology. 
+The tests in the new Annual Self-Assessment Methodology come from two simple and reusable test suites, one for each of the two Web Standards. The [Web Usability Standard Test Suite](web-usability-standard-test-suite.html) includes a test for each of that Standard’s requirements. As those requirements are relatively few and straightforward, this test suite has been incorporated wholesale into the Annual Self-Assessment Methodology. 
 
-The Web Accessibility Standard Test Suite combines an automated test tool with a collection of easy-to-perform manual procedures that test for common accessibility barriers and issues. As time goes on, we’ll build up the Web Accessibility Standard Test Suite with more tests addressing a greater number of issues. This year, the 2017 Self-Assessment Methodology will include only a subset of the Web Accessibility Standard Test Suite that is mainly focused on the most common issues identified in the 2014 Self-Assessments. 
+The [Web Accessibility Standard Test Suite](web-a11y-standard-test-suite.html) combines an automated test tool with a collection of easy-to-perform manual procedures that test for common accessibility barriers and issues. As time goes on, we’ll build up the Web Accessibility Standard Test Suite with more tests addressing a greater number of issues. This year, the 2017 Self-Assessment Methodology will include only a subset of the Web Accessibility Standard Test Suite that is mainly focused on the most common issues identified in the 2014 Self-Assessments. 
 
 These two Web Standards Test Suites can be used, as they are for these Annual Self-Assessments, to identify and measure improvement over time. More practically, they can also be used anytime and with any web content to:
 
