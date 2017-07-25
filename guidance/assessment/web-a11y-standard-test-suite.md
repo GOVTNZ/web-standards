@@ -8,7 +8,7 @@ draft: true
 
 ## Overview
 
-The following are tests that anyone can perform with any web content to get an indication of certain common and significant accessibility issues as defined in the Web Accessibility Standard.
+The following are tests that anyone can perform with any web content to get an indication of certain common and significant accessibility issues as defined in the [Web Accessibility Standard](https://webtoolkit.govt.nz/standards/web-accessibility-standard/).
 
 </div>
 
