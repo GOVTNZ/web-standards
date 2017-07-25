@@ -1,5 +1,5 @@
 ---
-layout: assessment-methodology 
+layout: test-suite 
 title: Web Accessibility Standard Test Suite 
 draft: true 
 ---

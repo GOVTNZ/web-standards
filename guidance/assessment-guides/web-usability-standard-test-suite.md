@@ -1,5 +1,5 @@
 ---
-layout: assessment-methodology 
+layout: test-suite 
 title: Web Usability Standard Test Suite
 draft: true 
 ---
