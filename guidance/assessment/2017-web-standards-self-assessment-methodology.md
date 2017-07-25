@@ -4,7 +4,7 @@ title: 2017 Web Standards Self-Assessment Methodology
 draft: true 
 ---
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 1. Overview
 
@@ -22,9 +22,11 @@ The 2017 Web Standards Self-Assessments greatly reduce the number of tests compa
 
 This document details what someone needs to know to conduct the 2017 Annual Web Standards Self-Assessment. It outlines the:
 
-*  tools needed and how to use them 
-*  tests required as part of the Self-Assessment 
-*  extra guidance for people less familiar with web accessibility. 
+* tools needed and how to use them 
+
+* tests required as part of the Self-Assessment 
+
+* extra guidance for people less familiar with web accessibility. 
 
 #### Web Standards Test Suites
 
@@ -34,27 +36,34 @@ The Web Accessibility Standard Test Suite combines an automated test tool with a
 
 These two Web Standards Test Suites can be used, as they are for these Annual Self-Assessments, to identify and measure improvement over time. More practically, they can also be used anytime and with any web content to:
 
-*  identify, prioritise, and fix notable accessibility and other Web Standards issues 
-*  report existing issues to management to get their support for training, remediation, resources, etc. 
-*  raise staff knowledge and skill in web accessibility   
-*  test web content built by external companies for common accessibility issues 
-*  apply the testing process throughout a website’s development lifecycle to ensure it is continually accessible. 
+* identify, prioritise, and fix notable accessibility and other Web Standards issues 
 
-### What it doesn’t do
+* report existing issues to management to get their support for training, remediation, resources, etc. 
+
+* raise staff knowledge and skill in web accessibility   
+
+* test web content built by external companies for common accessibility issues 
+
+* apply the testing process throughout a website’s development lifecycle to ensure it is continually accessible. 
+
+#### What it doesn’t do
 
 The Annual Self-Assessment Methodology can't tell you if your website is fully accessible or usable. If you want a full assessment, you need to test against all the requirements in the Web Accessibility and Web Usability Standards themselves.
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 2. Skills you need for doing the self-assessment
 
 If you’re doing the 2017 Web Standard Self-Assessment, you need to:
 
 * have basic knowledge HTML — enough to be able to inspect code and understand how elements are nested
+
 * use Chrome with the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) and [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) extensions installed
+
 * have another browser (Internet Explorer or Firefox) for testing keyboard use.
+
 * know your website well enough to pick pages based on their content.
 
 We’ll be holding workshops to demonstrate the various testing techniques. Come along if you have questions. Someone will be there to answer any testing questions you have. If you're not sure how to use the software, bring a laptop with the software installed. We can show you how to use it and test your web pages.
@@ -63,7 +72,7 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 3. How to pick pages for testing
 
@@ -97,18 +106,18 @@ For each of these content types, aim to identify at least a couple of pages with
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 4. Tools you need for testing
 {% include_relative tests/a11y/tools.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 5. Web Accessibility Standard Tests
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 1: Run the aXe automated testing tool
 {% include_relative tests/a11y/axe.md %}
@@ -116,42 +125,42 @@ For each of these content types, aim to identify at least a couple of pages with
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 2: Headings
 {% include_relative tests/a11y/headings.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 3: Lists
 {% include_relative tests/a11y/lists.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 4: Tables
 {% include_relative tests/a11y/tables.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 5: Keyboard
 {% include_relative tests/a11y/keyboard.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 6: Images
 {% include_relative tests/a11y/images.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### Test 7: Captions and transcripts
 {% include_relative tests/a11y/captions-transcripts.md %}
@@ -160,44 +169,44 @@ For each of these content types, aim to identify at least a couple of pages with
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 6. Web Usability Standard Tests
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### 1. Home page
 {% include_relative tests/usability/home-page.md %}
 
 </div>
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### 2. Contact information
 {% include_relative tests/usability/contact-information.md %}
 
 </div>
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### 3. Copyright
 {% include_relative tests/usability/copyright.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### 4. Privacy
 {% include_relative tests/usability/privacy.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### 5. Links to non-HTML files
 {% include_relative tests/usability/links-to-non-html-files.md %}
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details test" markdown="1">
 
 ### 6. Printable web pages
 {% include_relative tests/usability/printable-web-pages.md %}
@@ -206,7 +215,7 @@ For each of these content types, aim to identify at least a couple of pages with
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 7. Reporting back
 
@@ -219,14 +228,18 @@ Check this with RM for consideration in agency ICT maturity assessment.
 After you've completed the Self-Assessment spreadsheet, identify the tests that recorded the most failures (Row #### of the results spreadsheet). Review those failures and consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
 
 * How would you accommodate individuals or groups impacted by those failures, if you were required to? 
+
 * Do you need to escalate any risks to your management team, or update any risk registers that your agency maintains? 
+
 * Does your risk assessment suggest areas where your agency's web strategy or content publishing processes might need to be improved or reviewed?
 
 ### Areas for improvement
 Next review which of the pages you tested recorded the worst results (column ### of the results spreadsheet). 
 
 * Do they suggest that there is any areas of content (or web sites) that could be better served by migration to a more appropriate platform or channel? 
+
 * Do they suggest opportunities for better educating content publishers? 
+
 * Do they suggest opportunities for content (or web sites) that could be due for retirement?
 
 The Web Standards team at DIA can help Public Service departments undertake this evaluation. Contact [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz) if you want assistance.
@@ -239,7 +252,7 @@ Attach these plans to your Self-Assessment results and return them to [web.stand
 
 </div>
 
-<div class="details" markdown="1">
+<div class="details top" markdown="1">
 
 ## 8. Glossary
 {% include_relative glossary/a11y-terms.md %}
