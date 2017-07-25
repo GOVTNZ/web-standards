@@ -32,8 +32,8 @@ summary {padding: 0.25em 0.25em 0.25em 2em; background: #fff url(../img/rightArr
 summary::-webkit-details-marker {display: none;}
 details[open] > summary {background-image: url(../img/downArrow.png);}
 summary:hover, summary:focus, details[open] summary:hover, details[open] summary:focus {background-color: #eee;}
-.detailsContent {display: none;}
-details[open] .detailsContent {display: block;}
+details > :not(summary), .detailsContent {display: none;}
+details[open] > :not(summary), details[open] .detailsContent {display: block;}
 header {background: #000;}
 header .site-name {color: #fff; font-size: 2em; padding: 10px;} 
 nav.main, nav.bc {padding: 0 0 1em;}
