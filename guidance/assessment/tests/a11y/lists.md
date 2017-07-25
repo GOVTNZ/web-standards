@@ -24,7 +24,7 @@ In unordered lists, the individual list items are marked up as `<li>` elements.
 </ul>
 ```
 
-###### Ordered lists
+##### Ordered lists
 
 These lists are used where the order of the list items has an impact on their meaning. They’re marked up with an `<ol>` element. Each list item in an ordered list is preceded by a number or letter. These can be arabic numerals, roman numerals, upper or lowercase letters.
 
@@ -40,7 +40,7 @@ In ordered lists, the individual list items are marked up as `<li>` elements.
 </ol>
 ```
 
-###### Description or definition lists
+##### Description or definition lists
 
 These are used for groups of terms and their descriptions or definitions, as might be found in a glossary, or a collection of questions and answers. The list is contained in a `<dl>` element. Each term in the group uses a `<dt>` element and each associated description or definition uses a `<dd>` element. 
 
@@ -57,7 +57,7 @@ These are used for groups of terms and their descriptions or definitions, as mig
 </dl>
 ```
 
-###### Nested lists
+##### Nested lists
 
 Sometimes one or more list items (`<li>`...`</li>`) can contain another list. The nested list can be any type of list. In these cases the nested list is marked up as a complete list within the `<li>`...`</li>` of the parent list item.
 
@@ -87,8 +87,8 @@ Sometimes one or more list items (`<li>`...`</li>`) can contain another list. Th
 	* `<ol>` or `<ul>` and `<li>` for numbered or bulleted lists 
 	* `<dl>`, `<dt>` and `<dd>` for description or definition lists.
 
-4. If the list does not use the correct HTML markup, record this as a failure.
+4. If the list does not use the correct HTML markup, record a failure, noting the reason.
 
-5. If the list uses the wrong list type, e.g. a sequence of steps is marked up as a `<ul>` instead of an `<ol>`, record a failure. 
+5. If the list uses the wrong list type, e.g. a sequence of steps is marked up as a `<ul>` instead of an `<ol>`, record a failure, noting the reason. 
 
-Remember to resize your browser window and test at the site’s other responsive layouts if there is any change page content or layout.
+6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport.
