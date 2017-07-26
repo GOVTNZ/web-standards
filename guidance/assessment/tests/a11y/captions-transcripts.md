@@ -10,6 +10,42 @@
 
 Videos need captions, sometimes called subtitles.  Captions provide a text version of what people are hearing on video or audio content.
 
+######High-stakes content
+
+High-stakes content is critical content that people need. Examples include content about:
+
+* civil emergencies and responses
+
+* entitlement or access to benefits, education, consumer or other community protections, passports, or visas
+
+* rights in criminal and civil proceedings
+
+* central government elections or referenda
+
+* tax obligations and rebates
+
+* general health information, specific health advice, health and safety in employment.
+
+######Videos published in the last 10 days
+
+There is a grace period of 10 business days from the publish date to provide captions. To find out when it was published:
+
+* Click on the YouTube icon (next to the cog) to view the video information in YouTube.
+
+* The publish date will be underneath the share icon.
+
+######Auto captions
+
+Don’t rely on auto-captions — they often don’t reflect what’s actually being said because of the differences in people’s ways of speaking. Automatic captions aren’t accessible because they’re not accurate enough. Captions in the specific language need to be listed.
+
+To find out what captions you have:
+
+1. Click on the cog (Settings) under the video
+
+2. Look at the caption options for Subtitles/CC.
+
+3. If the option selected says English (auto-generated), these are auto captions.
+
 ##### Descriptive text transcript
 
 Video and audio content needs a descriptive text transcript. 
@@ -34,78 +70,32 @@ A transcript allows a:
 
 3. If it’s a video, while it’s playing, turn on captions.
 
-4. If there aren’t captions, check if the content is high-stakes content? If the content is high-stakes and there are no captions, record a failure.
+4. If there aren’t captions, check if the content is high-stakes content? If the content is high-stakes and there are no captions, record a failure, noting the reason.
 
-	 <div class="details" markdown="1">
+5. If there aren’t captions and it’s not high-stakes content, was it published within the last 10 business days? If not, record a failure, noting the reason.
 
-	 <h6>High-stakes content</h6>
+6. If there are captions, check they are an accurate rendition of all meaningful audio information. If not, record a failure, noting the reason.
 
-	 High-stakes content is critical content that people need. Examples include content about:
+7. Check that you don’t have auto captions turned on. If you’ve only got auto-captions, record a failure, noting the reason.
 
-	 * civil emergencies and responses
+#####Transcripts
 
-	 * entitlement or access to benefits, education, consumer or other community protections, passports, or visas
+8. Check the page for a text transcript for any video or audio content. If there’s no transcript, record a failure, noting the reason.
 
-	 * rights in criminal and civil proceedings
+9. If there’s a transcript, is it clearly labelled as being a transcript? If not, record a failure, noting the reason.
 
-	 * central government elections or referenda
-
-	 * tax obligations and rebates
-
-	 * general health information, specific health advice, health and safety in employment.
-
-	 </div>
-
-5. If there aren’t captions and it’s not high-stakes content, was it published within the last 10 business days? If not, record a failure.
-
-	 <div class="details" markdown="1">
-
-	 <h6>Videos published in the last 10 days</h6>
-
-	 There is a grace period of 10 business days from the publish date to provide captions. To find out when it was published:
-
-	 * Click on the YouTube icon (next to the cog) to view the video information in YouTube.
-
-	 * The publish date will be underneath the share icon.
-
-	 </div>
-
-6. If there are captions, check they are an accurate rendition of all meaningful audio information. If not, record a failure.
-
-7. Check that you don’t have auto captions turned on. If you’ve only got auto-captions, record a failure.
-
-	 <div class="details" markdown="1">
-
-	 <h6>Auto captions</h6>
-
-	 Don’t rely on auto-captions — they often don’t reflect what’s actually being said because of the differences in people’s ways of speaking. Automatic captions aren’t accessible because they’re not accurate enough. Captions in the specific language need to be listed.
-
-	 To find out what captions you’ve got:
-
-	 1. click on the cog (Settings) under the video
-
-	 2. look at the caption options for Subtitles/CC.
-
-	 3. If the option selected says English (auto-generated), these are auto captions.
-
-	 </div>
-
-8. Check the page for a text transcript for any video or audio content. If there’s no transcript, record a failure.
-
-9. If there’s a transcript, is it clearly labelled as being a transcript? If not, record a failure.
-
-10. Compare the transcript with the video/audio content. Is it an accurate reflection of the meaningful audio or visual information? If not, record a failure.
+10. Compare the transcript with the video/audio content. Is it an accurate reflection of the meaningful audio or visual information? If not, record a failure, noting the reason.
 
 11. Right-click and look at the page source (not the inspector):
 
-* Do a search for "<iframe".
+    * Do a search for "<iframe".
 
-* If you find an iframe look for a title attribute with a descriptive name.
+    * If you find an iframe look for a title attribute with a descriptive name.
 
-* If the iframe doesn’t have one, record a failure for WCAG 4.1.2 (Name, role, value).
+    * If the iframe doesn’t have one, record a failure for WCAG 4.1.2 (Name, role, value). Note the reason.
 
 #### Other failure points
 
-If you happen to see this, record a failure.
+If you happen to see this, record a failure, noting the reason.
 
 * There is no descriptive text transcript for any video and audio content.
