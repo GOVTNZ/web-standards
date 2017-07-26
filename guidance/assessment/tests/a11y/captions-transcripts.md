@@ -10,7 +10,7 @@
 
 Videos need captions, sometimes called subtitles.  Captions provide a text version of what people are hearing on video or audio content.
 
-######High-stakes content
+###### High-stakes content
 
 High-stakes content is critical content that people need. Examples include content about:
 
@@ -26,7 +26,7 @@ High-stakes content is critical content that people need. Examples include conte
 
 * general health information, specific health advice, health and safety in employment.
 
-######Videos published in the last 10 days
+###### Videos published in the last 10 days
 
 There is a grace period of 10 business days from the publish date to provide captions. To find out when it was published:
 
@@ -34,7 +34,7 @@ There is a grace period of 10 business days from the publish date to provide cap
 
 * The publish date will be underneath the share icon.
 
-######Auto captions
+###### Auto captions
 
 Don’t rely on auto-captions — they often don’t reflect what’s actually being said because of the differences in people’s ways of speaking. Automatic captions aren’t accessible because they’re not accurate enough. Captions in the specific language need to be listed.
 
@@ -78,7 +78,7 @@ A transcript allows a:
 
 7. Check that you don’t have auto captions turned on. If you’ve only got auto-captions, record a failure, noting the reason.
 
-#####Transcripts
+##### Transcripts
 
 8. Check the page for a text transcript for any video or audio content. If there’s no transcript, record a failure, noting the reason.
 

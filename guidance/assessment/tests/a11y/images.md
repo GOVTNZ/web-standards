@@ -22,29 +22,31 @@ For complex content images, the long text alternative can be provided in a numbe
 Brief description of use of CSS to add content and decorative images.
 </div>
 
+###### Alt text for CSS images 
+
+Background images inserted using CSS should only be used for decorative images because you can’t yet put alt text on one. If they convey meaningful information they must have a text alternative near where the image appears. There are a number of ways to do this:
+
+- Add text but use CSS to position it offscreen. It isn’t visible, but it is available to a screen reader user. 
+- Assign the element that has the CSS image a `role` of `img` (`role="img"`) and use an `aria-label` attribute for the alt text. 
+
 ###### Finding CSS images
 
-Outline images using the Web Developer extension as shown in Step 1.If you can’t find an `<img>` element when you inspect the code for an image, it’s probably been added as a background image using CSS.  The easiest way to confirm this is with the Web Developer extension. 
+Outline images using the Web Developer extension as shown in Step 1 of the How to test section. If you can’t find an `<img>` element when you inspect the code for an image, it’s probably been added as a background image using CSS.  The easiest way to confirm this is with the Web Developer extension. 
 
-1. Open the Web Developer extension and select ‘Images > Outline Background Images’.  This will add a visual border around each CSS background image on the page.  
-2. For each background image outlined on the page, inspect the code for the element to which the CSS background image is attached. 
+1. Open the Web Developer extension and select ‘Images’ and ‘Outline Background Images’.  This will add a visual border around each CSS background image on the page.  
+2. For each background image outlined on the page, inspect the code for the element that the CSS background image is attached to. 
 3. Once you find it, look for the text alternative in the code. 
 
 ###### How to inspect code to find the CSS image
 
 For example, the [Govt.nz website](https://www.govt.nz/) uses a CSS background image for the linked New Zealand Government logo in the site banner.
 
+In this example, to inspect the code for the CSS image:
+
 1. Right-click on the image and inspect the code. The developer tools window opens and highlights an `<a>` element in the page. 
 2. Look in the Styles panel for something that says background or background-image with a url(...) in its value. It will usually be near the top. 
-3. The `<a>` element you’re currently inspecting doesn’t have a background image attached, so try inspecting its parent element, in this case the `<div>` containing the link. You’ll see the `<div>` has a `background-image` property with a "url(...)"" in the value, so you’ve found the right element. 
+3. The `<a>` element you’re currently inspecting doesn’t have a background image attached. Try inspecting its parent element, in this case the `<div>` containing the link. You’ll see the `<div>` has a `background-image` property with a "url(...)" in the value, so you’ve found the right element. 
 4. That `<div>` contains a link, which you’ve already inspected. Inside that `<a>` element is a `<span>` containing text that matches the text in the logo image. That text may not be visible to sighted users, but it serves as the text alternative for the CSS background image. It also serves as the link text for the link. 
-
-###### Alt text for CSS images 
-
-Background images inserted using CSS should only be used for decorative images because you can’t yet put alt text on one. If they convey meaningful information they must have a text alternative near where the image appears. There are a number of ways to do this:
-
-- Add text but hide it offscreen so it isn’t visible, but is available to a screen reader user. 
-- Assign the element that has the CSS image a `role` of `img` (`role="img"`) and use an `aria-label` attribute for the alt text. 
 
 </div>
 
@@ -58,15 +60,15 @@ Need examples!
 
 1. Find all the images in the content of the page. The easiest way to do this is to:
 
-    * In the Web Developer extension, select "Images"
+    * In the Web Developer extension, select 'Images'.
 
-    * Check, "Outline All images". 
+    * Check 'Outline All images'. 
 
     * This highlights all images in the page content.
 
 1. Assess each image like this:
 
-    1. If any image does not have an alt attribute, record a failure and go to the next test.
+    1. If any image does not have an alt attribute, record a failure, noting the reason and go to the next test.
 
     2. Is the image part of a link? If it’s not, move on to step number 3 below. If it is, inspect it to view the alt text. It must meet one of these criteria:
 
@@ -136,13 +138,13 @@ Need examples!
 
     2. Check that the alt text for the first image matches the image.
 
-    3. Wait until the next image loads and then make sure that the alt text has changed to match the new image. Record a failure if it doesn’t.
+    3. Wait until the next image loads and then make sure that the alt text has changed to match the new image. If it doesn't record a failure, noting the reason.
 
 2. Check for any images that contain meaningful information but haven’t been outlined. 
 
 #### Other failure points
 
-If you happen to see any of these, record a failure.
+If you happen to see any of these, record a failure, noting the reason.
 
 * An image conveys information using different colours, but the alternative text doesn’t include that information.
 
