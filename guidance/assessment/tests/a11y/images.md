@@ -18,11 +18,9 @@ For complex content images, the long text alternative can be provided in a numbe
 
 ##### CSS Background images
 
-<div class="ed" markdown="1">
-Brief description of use of CSS to add content and decorative images.
-</div>
+Content images should be added using `<img>`. CSS, which is the presentation layer, should be used for decorative or presentation images. But sometimes, for various reasons, content images are added using CSS. In these cases, there's no easy way to provide alt text (yet) and so the alt text needs to be in the HTML or otherwise in the web page somehow.
 
-###### Alt text for CSS images 
+###### Adding alt text for CSS images 
 
 Background images inserted using CSS should only be used for decorative images because you can’t yet put alt text on one. If they convey meaningful information they must have a text alternative near where the image appears. There are a number of ways to do this:
 
