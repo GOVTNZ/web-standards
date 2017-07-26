@@ -58,19 +58,19 @@ Need examples!
 
 #### How to test
 
-1. Find all the images in the content of the page. The easiest way to do this is to:
+1. Find all the non-CSS images in the content of the page. The easiest way to do this is to:
 
-    * In the Web Developer extension, select 'Images'.
+    * use the Web Developer extension, and select 'Images'
 
-    * Check 'Outline All images'. 
+    * check 'Outline All images'.
 
-    * This highlights all images in the page content.
+This highlights all images in the page content.
 
-1. Assess each image like this:
+2. Assess each image like this:
 
-    1. If any image does not have an alt attribute, record a failure, noting the reason and go to the next test.
+    a. If any image does not have an alt attribute at all, record a failure, noting the reason and go to the next test.
 
-    2. Is the image part of a link? If it’s not, move on to step number 3 below. If it is, inspect it to view the alt text. It must meet one of these criteria:
+    b. Is the image part of a link? If it’s not, move on to step number 3 below. If it is, inspect it to view the alt text. It must meet one of these criteria:
 
     <table>
       <tr>
@@ -78,22 +78,21 @@ Need examples!
         <th>What it needs to be accessible</th>
       </tr>
       <tr>
-        <td>The link contains just the image with no surrounding words.
-     </td>
+        <td>The link is just the image with no extra words surrounding it.</td>
         <td>The alt text must describe the link’s purpose or destination — rather than describe the image itself, e.g. the alt text for a Twitter icon might be ‘Tweet this page’.</td>
       </tr>
       <tr>
-        <td>The link contains an image and text that describes the link’s purpose or destination.</td>
+        <td>The link contains an image with extra text that describes the link’s purpose or destination.</td>
         <td>The alt text should be empty, i.e. <code>alt=""</code>.</td>
       </tr>
       <tr>
-        <td>The link contains an image and text, but the image has meaningful information that isn’t in the link text.</td>
+        <td>The link contains an image with extra text, but the image has meaningful information that isn’t in the link text.</td>
         <td>Include the extra meaningful information from the image in the image’s alt text.</td>
       </tr>
     </table>
 
 
-1. Ask yourself these questions about the image:
+3. If the image isn't part of a link ask yourself these questions about the image:
 
     * Is there meaningful information in this image or is it purely decorative?
 
@@ -132,15 +131,17 @@ Need examples!
       </tr>
     </table>
 
-1. If you have images that automatically change on a page, make sure that each newly displayed image has appropriate alt text reflecting that image:
+4. If you have images that automatically change on a page, make sure that each newly displayed image has appropriate alt text reflecting that image:
 
-    1. Inspect the code to read the first image’s alt text.
+    a. Inspect the code to read the first image’s alt text.
 
-    2. Check that the alt text for the first image matches the image.
+    b. Check that the alt text for the first image matches the image.
 
-    3. Wait until the next image loads and then make sure that the alt text has changed to match the new image. If it doesn't record a failure, noting the reason.
+    c. Wait until the next image loads and then make sure that the alt text has changed to match the new image. If it doesn't record a failure, noting the reason.
 
-2. Check for any images that contain meaningful information but haven’t been outlined. 
+5. Check for any images that contain meaningful information but haven’t been outlined. These are likely to be CSS or background images.
+
+6. Check the code to find the text alternatives for these images. If there isn't a text alternative, record a failure, noting the reason.
 
 #### Other failure points
 
