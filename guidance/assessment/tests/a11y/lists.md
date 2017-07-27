@@ -1,3 +1,7 @@
+**Consequence of failure:** Failing this requirement means some people are denied contextual information which helps them understand how content in lists is structured on the page.
+
+**Related WCAG 2.0 success criteria:** [1.3.1 Information and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html).
+
 <div class="details" markdown="1">
 
 #### What you should know about lists

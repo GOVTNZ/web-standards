@@ -1,5 +1,5 @@
 
-**Impact of failure:** Failing these requirements means people who print web pages might find them difficult to read or illegible.
+**Consequence of failure:** Failing these requirements means people who print web pages might find them difficult to read or illegible.
 
 **Related Web Usability Standard requirements:** [2.6 Printable web pages](https://webtoolkit.govt.nz/standards/web-usability-standard/#printable).
 

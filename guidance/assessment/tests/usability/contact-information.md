@@ -1,5 +1,5 @@
 
-**Impact of failure:** Failing these requirements means people can’t easily contact the government organisation responsible for the website.
+**Consequence of failure:** Failing these requirements means people can’t easily contact the government organisation responsible for the website.
 
 **Related Web Usability Standard requirements:** [2.2 Contact information](https://webtoolkit.govt.nz/standards/web-usability-standard/#contact).
 

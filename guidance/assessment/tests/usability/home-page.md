@@ -1,5 +1,5 @@
 
-**Impact of failure:** Failing these requirements means people can’t easily identify which government organisation is mainly accountable for the website or connect to the main NZ Government website.
+**Consequence of failure:** Failing these requirements means people can’t easily identify which government organisation is mainly accountable for the website or connect to the main NZ Government website.
 
 **Related Web Usability Standard requirements:** [2.1 Home page](https://webtoolkit.govt.nz/standards/web-usability-standard/#home-page-links).
 
