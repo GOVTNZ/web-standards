@@ -18,6 +18,12 @@ Depending on backgrounds and the style of the focus indicator, it can sometimes 
 
 Also remember that unlike screen readers, you won’t see focus move to everything on the page. Items that you can’t interact with, like headings or body text, don’t take keyboard focus. But items like forms, links, carousel controls, buttons, videos, dialog boxes do need interaction, so when they get keyboard focus, it should be visible.
 
+##### More about Popup boxes
+
+Popup boxes (sometimes called modal or lightboxes) are meant to stop the user from doing anything else on the page until they’ve finished with the box. An example is an image gallery lightbox — while viewing the images, the page content behind it is not available.
+
+Typically the rest of the page will be partly dimmed to show that mouse users can’t click on anything outside the box. Keyboard focus should also be trapped within the box, and all content outside it should be unavailable to user interaction, including assistive technologies like screen readers.
+
 </div>
 
 #### How to test
@@ -30,17 +36,17 @@ You need to test keyboard use for any type of content on your page. Not all the 
 
 1. Starting in the address bar, use the <kbd>Tab</kbd> key to move through the page. Use the <kbd>Shift</kbd>+<kbd>Tab</kbd> keys if you need to move backwards.  
 
-##### Visible focus 
+    <h5>Visible focus</h5>
 
 2. While you move through the page, make sure you can see where the current focus is. Record a failure of visible focus if you can’t see anything. If it’s there but hard to see, just note it in the report.  
 
-##### Links and buttons
+    <h5>Links and buttons</h5>
 
 3. Use the <kbd>Tab</kbd> key to move to every link and press <kbd>Enter</kbd>.  Use the browser’s back button (<kbd>Alt</kbd> + <kbd>Left arrow</kbd> or <kbd>Command</kbd> + <kbd>Left arrow</kbd> on a keyboard) to go back to the previous page. If the link doesn’t work with the <kbd>Enter</kbd> key, record a failure of keyboard functionality, noting the reason in the report.
 
 4. Use the <kbd>Tab</kbd> key to move to each button and press the <kbd>Spacebar</kbd>. Check that the button performs the same action as when clicked on with a mouse. If you can’t activate the button with the <kbd>Spacebar</kbd>, record this as a failure of keyboard functionality.  
 
-##### Popup boxes
+    <h5>Popup boxes</h5>
 
 5. If a popup box (sometimes known as a modal dialog or lightbox) appears, check that you can: 
     a. easily move around the box  
@@ -51,17 +57,7 @@ You need to test keyboard use for any type of content on your page. Not all the 
 
 7. If the box is a modal or lightbox, make sure your tabbing is being restricted to the box. If you tab past the last item in the box, focus needs to loop back to the beginning of the box. If the keyboard focus continues on in the background, record a failure of keyboard functionality, noting the reason, then close the box and keep testing. 
 
-<div class="details" markdown="1">
-
-###### More about Popup boxes
-
-Popup boxes (sometimes called modal or lightboxes) are meant to stop the user from doing anything else on the page until they’ve finished with the box. An example is an image gallery lightbox — while viewing the images, the page content behind it is not available.
-
-Typically the rest of the page will be partly dimmed to show that mouse users can’t click on anything outside the box. Keyboard focus should also be trapped within the box, and all content outside it should be unavailable to user interaction, including assistive technologies like screen readers.
-
-</div>
-
-##### Videos and carousels
+    <h5>Videos and carousels</h5>
 
 8. Check that you can use the keyboard to control things like videos, carousels, sliders. Where you can't, record a failure of keyboard functionality, noting the reason. 
 
@@ -74,7 +70,7 @@ Typically the rest of the page will be partly dimmed to show that mouse users ca
         * use the keyboard to set focus to and activate each of its controls? 
         * switch between its panels? 
 
-##### Forms
+    <h5>Forms</h5>
 
 9. Check that you can use the keyboard to complete a form. Where you can't, record a failure of keyboard functionality, noting the reason. If your page has a form, can you use the: 
     * <kbd>Tab</kbd> key to get to each form field? 
@@ -86,7 +82,7 @@ Typically the rest of the page will be partly dimmed to show that mouse users ca
     * up/down arrow keys to choose from drop-down options? 
     * enter key to submit the form? 
 
-##### Retest at other viewports
+    <h5>Retest at other viewports</h5>
 
 10. Remember to resize your browser window and test at the site’s other viewports. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport.
 
