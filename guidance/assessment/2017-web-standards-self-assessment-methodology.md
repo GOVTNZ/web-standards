@@ -246,7 +246,9 @@ The Web Standards team at DIA can help Public Service departments undertake this
 
 ### Report you plans
 
-As of 01 July 2017, all publicly available web pages owned by Public Service departments and Non-Public Service departments in the State Services are expected to fully meet the Web Accessibility and Web Usability Standards. Based on your self-assessment results and review, what plans does your agency's Chief Information Officer or similar have for addressing risks and opportunities, and for improving your agency's web presence with regard to the Web Standards?
+As of 01 July 2017, all publicly available web pages owned by Public Service departments and Non-Public Service departments in the State Services are expected to fully meet the Web Accessibility and Web Usability Standards. In cases where these Standards are not met, agencies are asked to submit a plan for managing any areas of non-conformance. Based on your self-assessment results and review, what plans does your agency's Chief Information Officer or similar have for addressing risks and opportunities, and for improving your agency's web presence with regard to the Web Standards?
+
+If your agency undertook any activities as a result of the 2014 Web Standards Self-Assessments, we are also interested in learning about those, and the impact they have had.
 
 Attach these plans to your Self-Assessment results and return them to [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz).
 
