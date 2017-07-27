@@ -1,5 +1,5 @@
 
-**Impact of failure:** Failing this requirement means people won't know about what will happen when they click a link to download a non-HTML file.
+**Consequence of failure:** Failing this requirement means people won't know about what will happen when they click a link to download a non-HTML file.
 
 **Related Web Usability Standard requirements:** [2.5 Home page](https://webtoolkit.govt.nz/standards/web-usability-standard/#links-to-non-html-files).
 

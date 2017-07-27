@@ -1,6 +1,6 @@
 **What you need:** A browser other than Chrome or Safari (e.g. Firefox or Internet Explorer) for this test. Chrome and Safari tend to add their own visible indication of keyboard focus.
 
-**Impact of failure:** Failing this requirement means people who use a keyboard or other assistive devices instead of a mouse can’t use your site.
+**Consequence of failure:** Failing this requirement means people who use a keyboard or other assistive devices instead of a mouse can’t use your site.
 
 **Related WCAG 2.0 success criteria:** [2.1.1 Keyboard](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html); [2.4.7 Focus Visible](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html); [2.1.2 No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html).
 

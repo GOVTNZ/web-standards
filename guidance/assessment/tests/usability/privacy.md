@@ -1,5 +1,5 @@
 
-**Impact of failure:** Failing these requirements means people can’t clearly determine exactly what personal or private information the website or responsible organisation collects, what it does with such information, and the users’ rights with regard to that information.
+**Consequence of failure:** Failing these requirements means people can’t clearly determine exactly what personal or private information the website or responsible organisation collects, what it does with such information, and the users’ rights with regard to that information.
 
 **Related Web Usability Standard requirements:** [2.4 Privacy](https://webtoolkit.govt.nz/standards/web-usability-standard/#privacy).
 

@@ -1,4 +1,4 @@
-**Impact of failure:** Failing this requirement excludes the deaf or hearing-impaired from accessing video or audio content. It also denies the benefits of captions to anyone in a noisy environment or who can’t access audio content.
+**Consequence of failure:** Failing this requirement excludes the deaf or hearing-impaired from accessing video or audio content. It also denies the benefits of captions to anyone in a noisy environment or who can’t access audio content.
 
 **Related WCAG 2.0 success criteria:** [1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html); [1.2.3 Audio Description or Media Alternative (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html); [4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
 
