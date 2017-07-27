@@ -39,6 +39,8 @@ c. Once you find it, look for the text alternative in the code.
 
 For example, the [Govt.nz website](https://www.govt.nz/) uses a CSS background image for the linked New Zealand Government logo in the site banner.
 
+![New Zealand Government logo outlined because it is a background image](https://govtnz.github.io/web-standards/assets/img/gnz-css-img.jpg)
+
 In this example, to inspect the code for the CSS image:
 
 a. Right-click on the image and inspect the code. The developer tools window opens and highlights an `<a>` element in the page. 
