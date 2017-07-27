@@ -40,11 +40,11 @@ Don’t rely on auto-captions — they often don’t reflect what’s actually b
 
 To find out what captions you have:
 
-1. Click on the cog (Settings) under the video
+a. Click on the cog (Settings) under the video
 
-2. Look at the caption options for Subtitles/CC.
+b. Look at the caption options for Subtitles/CC.
 
-3. If the option selected says English (auto-generated), these are auto captions.
+c. If the option selected says English (auto-generated), these are auto captions.
 
 ##### Descriptive text transcript
 
@@ -93,6 +93,8 @@ A transcript allows a:
     * If you find an iframe look for a title attribute with a descriptive name.
 
     * If the iframe doesn’t have one, record a failure for WCAG 4.1.2 (Name, role, value). Note the reason.
+    
+12. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport.
 
 #### Other failure points
 
