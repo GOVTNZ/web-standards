@@ -62,7 +62,7 @@ Need examples!
 
     * check 'Outline All images'.
 
-This highlights all images in the page content.
+    This highlights all images in the page content.
 
 2. Assess each image like this:
 
