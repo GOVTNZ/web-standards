@@ -10,7 +10,7 @@
 
 You have a data table if you need column headers and/or row headers to explain what the information in the cell means.
 
-Otherwise it’s a layout table (see below).
+Otherwise it’s a layout table.
 
 A data table’s column and row structure is expressed using the proper HTML markup.
 
@@ -21,21 +21,25 @@ Simple tables have one row of column headers and maybe one column of row headers
 ###### Example of a simple table
 
 <table>
+<thead>
 	<tr>
 		<th>Destination</th>
 		<th>Name</th>
 		<th>Departure date</th>
 	</tr>
+    </thead>
+    <tbody>
 	<tr>
-		<td>Vienna</td>
+		<th>Vienna</th>
 		<td>Hilary Bell</td>
 		<td>4 October 2009</td>
 	</tr>
 	<tr>
-		<td>Cairo</td>
+		<th>Cairo</th>
 		<td>Sarah Fisher</td>
 		<td>7 October 2009</td>
 	</tr>
+    </tbody>
 </table> 
 
 For an example of a simple table using `<th>` and `scope` attributes for both column and row headers, see the [table for the Web Accessibility Standard’s implementation schedule](https://webtoolkit.govt.nz/guidance/about-the-standards/about-the-web-accessibility-standard/#implementation). 
@@ -50,13 +54,16 @@ Complex tables have multiple levels of row or column headers.
 
 ###### Example of a basic complex table
 <table>
+<thead>
   <tr>
-    <td>Destination</td>
-    <td>Name</td>
-    <td>Departure date</td>
+    <th scope="col">Destination</th>
+    <th>Name</th>
+    <th>Departure date</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
-    <td rowspan="2">Vienna</td>
+    <th rowspan="2">Vienna</th>
     <td>Hilary Bell</td>
     <td>4 October 2009</td>
   </tr>
@@ -65,17 +72,18 @@ Complex tables have multiple levels of row or column headers.
     <td>5 October 2009</td>
   </tr>
   <tr>
-    <td>Munich</td>
+    <th>Cairo</th>
     <td>Sarah Fisher</td>
     <td>7 October 2009</td>
   </tr>
+  </tbody>
 </table>
 
-A table like this need additional markup to be accessible. Straightforward complex tables may only need to use the `scope` attribute to clarify how the column or row header cells apply to the different columns and rows. 
+Straightforward complex tables may only need to use the `scope` attribute to clarify how the column or row header cells apply to the different columns and rows. 
 
 ###### More complicated tables
 
-These can still be made accessible if you use:
+If you want to make complex tables accessible, use:
 
 * `headers` and `id` attributes, or 
 * ARIA `rowheader` or `columnheader` roles. 
@@ -88,11 +96,10 @@ You can also use the ARIA `rowheader` or `columnheader` role on the header cell�
 
 * `<td>` instead of `<th>`, or 
 * `<div>` and `<span>` elements instead of standard HTML table markup. 
-**
 
 ###### Layout tables
 
-If a layout table is used, it must not include any of following HTML elements and attributes:
+If the  table is a layout table, it must not include any of following HTML elements and attributes:
 
 * `<th>`, `<thead>`, `<tfoot>` and `<caption>` elements 
 * `summary`, `scope` or `headers` attributes. 
@@ -107,28 +114,28 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 2. For each table, decide if it’s a data table or a layout table. 
 3. Inspect the source code associated with each table. 
 
-##### Data tables
+    <h5>Data tables</h5>
 
-1. Look at each data table. Is it simple or complex? 
-2. Look at the markup of its column and/or row headers. Once you record a pass you can move to the next test. Inspect the code in the header cell for any of the following: 
+2. Look at each data table. Is it simple or complex? 
+3. Look at the markup of its column and/or row headers. Once you record a pass you can move to the next test. Inspect the code in the header cell for any of the following: 
 	* is marked up with a `<th>` element — most appropriate for simple tables 
 	* uses a `<th>` with a scope attribute e.g. `<th scope="col">` for a column header, or `<th scope=“row”>` for a row header — mostly used for complex tables 
 	* has an `id` attribute, and the data cell references that `id`'s value using a `headers` attribute  — mostly used for complex tables 
 	* doesn’t use `<th>` but instead uses the ARIA "rowheader" or "columnheader" role in the header cell element. 
 
-3. If none of these options have been used to markup the header cell, record a failure. 
+4. If none of these options have been used to markup the header cell, record a failure, noting the reasonß. 
 
-##### Layout tables
+    <h5>Layout tables</h5>
 
-1. If it’s a layout table, record a failure if the `<table>`  has any of the following: 
+5. If it’s a layout table, record a failure, noting the reason, if the `<table>`  has any of the following: 
 	* `<th>`, `<thead>`, `<tfoot>` and `<caption>` elements 
 	* a `summary` attribute on the `<table>` element 
 	* `scope` or `headers` attributes on `<td>` elements. 
 
-2. Remember to resize your browser window and test at the site’s other viewports if there is any change in page content or layout. 
+6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport. 
 
 ##### Other failure points
 
-If you happen to see this, record a failure.
+If you happen to see this, record a failure, noting the reason.
 
 * A table uses `id` and `headers` attributes but associates content cells with the wrong header cells.

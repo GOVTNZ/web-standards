@@ -47,12 +47,12 @@ Once you’ve installed the extension, you can access it using the cog icon on t
 
 You’ll be asked to run some tests at a few screen resolutions or viewports. Accessibility issues that only appear on smaller screens will get picked up this way.
 
-As well as testing your pages at your browser’s normal desktop size, you also need to test at the following widths: 
+As well as testing your pages at your browser’s normal desktop size, you also need to test at the following viewport sizes: 
 
 * 320 x 568px - the size of a small screen mobile phone like an iPhone 5
 * 768 x 1024px - roughly the size of a tablet like an iPad.
 
-If you don't see any changes in the page content or layout, enter “no change” in the cell for tablet-size results.
+If you don't see any changes in the page content or layout, enter 'no change' in the cell for tablet-size results.
 
 To simulate a mobile or tablet experience on a desktop computer, you could resize your browser to approximately the size of a tablet or a smartphone. But it’s easier to use built-in tools like Chrome’s Device Mode to help with this. 
 
