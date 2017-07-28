@@ -14,13 +14,13 @@ The [New Zealand Government Web Standards](https://webtoolkit.govt.nz/standards/
 
 1. The [Web Accessibility Standard](https://webtoolkit.govt.nz/standards/web-accessibility-standard/) is a profile of the World Wide Web Consortium’s (W3C) [Web Content Accessibility Guidelines v2.0](https://www.w3.org/TR/WCAG20/) (WCAG 2.0). WCAG 2.0 is at the heart of web accessibility requirements in a number of jurisdictions including Australia, Canada and the United Kingdom. The New Zealand profile defines some custom exceptions to WCAG 2.0 for use within the New Zealand Government. 
 
-2. The [Web Usability Standard](https://webtoolkit.govt.nz/standards/web-usability-standard/) is a collection of policy-related requirements that draw on other frameworks such as the [Privacy Act](https://www.privacy.org.nz/the-privacy-act-and-codes/privacy-act-and-codes-introduction/), the [New Zealand Government Open Access and Licensing Framework](https://www.ict.govt.nz/guidance-and-resources/open-government/new-zealand-government-open-access-and-licensing-nzgoal-framework/), and a small number of best practices identified by the Web Standards Working Group (since discontinued) of cross-agency web practitioners . 
+2. The [Web Usability Standard](https://webtoolkit.govt.nz/standards/web-usability-standard/) is a collection of policy-related requirements that draw on other frameworks such as the [Privacy Act](https://www.privacy.org.nz/the-privacy-act-and-codes/privacy-act-and-codes-introduction/), the [New Zealand Government Open Access and Licensing Framework](https://www.ict.govt.nz/guidance-and-resources/open-government/new-zealand-government-open-access-and-licensing-nzgoal-framework/), and a small number of best practices identified by the Web Standards Working Group (since discontinued) of cross-agency web practitioners. 
 
 ### 2017 Self-Assessment Methodology
 
-The 2017 Web Standards Self-Assessments greatly reduce the number of tests compared to the 2014 Self-Assessments. The 2017 Self-Assessment Methodology does not comprehensively test against all requirements of the Web Accessibility and Web Usability Standards, nor does it deliver a formal compliance score or ranking. Instead, it outlines a series of tests whose results are an actionable indicator of how well web content is meeting the intent of the Web Standards.
+The 2017 Web Standards Self-Assessments greatly reduce the number of tests compared to the 2014 Self-Assessments. The 2017 Self-Assessment Methodology does not comprehensively test against all requirements of the Web Standards, nor does it deliver a formal compliance score or ranking. Instead, it outlines a series of tests whose results are an actionable indicator of how well web content is meeting the intent of the Web Standards.
 
-This document details what someone needs to know to conduct the 2017 Annual Web Standards Self-Assessment. It outlines the:
+This document details what someone needs to know in order to conduct the 2017 Annual Web Standards Self-Assessment. It outlines the:
 
 * tools needed and how to use them 
 
@@ -30,15 +30,15 @@ This document details what someone needs to know to conduct the 2017 Annual Web 
 
 #### Web Standards Test Suites
 
-The tests in the new Annual Self-Assessment Methodology come from two simple and reusable test suites, one for each of the two Web Standards. The [Web Usability Standard Test Suite](web-usability-standard-test-suite.html) includes a test for each of that Standard’s requirements. As those requirements are relatively few and straightforward, this test suite has been incorporated wholesale into the Annual Self-Assessment Methodology. 
+The tests in the new Annual Self-Assessment Methodology come from 2 simple and reusable test suites, one for each of the 2 Web Standards. The [Web Usability Standard Test Suite](web-usability-standard-test-suite.html) includes a test for each requirements. As those requirements are relatively few and straightforward, this test suite has been incorporated wholesale into the Annual Self-Assessment Methodology. 
 
-The [Web Accessibility Standard Test Suite](web-a11y-standard-test-suite.html) combines an automated test tool with a collection of easy-to-perform manual procedures that test for common accessibility barriers and issues. As time goes on, we’ll build up the Web Accessibility Standard Test Suite with more tests addressing a greater number of issues. This year, the 2017 Self-Assessment Methodology will include only a subset of the Web Accessibility Standard Test Suite that is mainly focused on the most common issues identified in the 2014 Self-Assessments. 
+The [Web Accessibility Standard Test Suite](web-a11y-standard-test-suite.html) combines an automated testing tool with a collection of easy-to-perform manual procedures that test for common accessibility barriers and issues. As time goes on, we’ll build up the Web Accessibility Standard Test Suite with more tests addressing a greater number of issues. This year, the 2017 Self-Assessment Methodology will include only a subset of the Web Accessibility Standard Test Suite that is mainly focused on the most common issues identified in the 2014 Self-Assessments. 
 
-These two Web Standards Test Suites can be used, as they are for these Annual Self-Assessments, to identify and measure improvement over time. More practically, they can also be used anytime and with any web content to:
+The Web Standards Test Suites can be used, as they are for these Annual Self-Assessments, to identify and measure improvement over time. More practically, they can also be used anytime and with any web content to:
 
 * identify, prioritise, and fix notable accessibility and other Web Standards issues 
 
-* report existing issues to management to get their support for training, remediation, resources, etc. 
+* report existing issues to management to get their support for training, remediation, resources, etc 
 
 * raise staff knowledge and skill in web accessibility   
 
@@ -48,7 +48,7 @@ These two Web Standards Test Suites can be used, as they are for these Annual Se
 
 #### What it doesn’t do
 
-The Annual Self-Assessment Methodology can't tell you if your website is fully accessible or usable. If you want a full assessment, you need to test against all the requirements in the Web Accessibility and Web Usability Standards themselves.
+The Annual Self-Assessment Methodology can't tell you if your website is fully accessible or usable. If you want a full assessment, you need to test against all the requirements of the Web Accessibility and Web Usability Standards.
 
 </div>
 
@@ -62,7 +62,7 @@ If you’re doing the 2017 Web Standard Self-Assessment, you need to:
 
 * use Chrome with the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) and [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) extensions installed
 
-* have another browser (Internet Explorer or Firefox) for testing keyboard use.
+* have another browser (Internet Explorer or Firefox) for testing keyboard use
 
 * know your website well enough to pick pages based on their content.
 
@@ -78,21 +78,21 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 
 1. If your agency only runs one or two websites, skip to step 3. 
 
-2. Determine the traffic to your agency’s busiest sites over the last 12 months. Identify the three most visited sites from your analytics. You will select pages from these three sites. 
+2. Determine the traffic to your agency’s busiest sites over the last 12 months. Identify the 3 most visited sites from your analytics. You will select pages from these 3 sites. 
 
 3. For each site to be tested, enter the URL of the home page and the contact page in the assessment spreadsheet in column A of the ‘Manual tests’ worksheet. 
 
 4. Use your knowledge of the sites to nominate pages that you know have one or more of the following in their content: 
     
-   1. Lists (ordered and/or unordered) 
+   * lists (ordered and/or unordered)
     
-   2. Tables of data, or information presented in HTML tables 
+   * tables or information presented in HTML tables
     
-   3. Forms and/or widgets (such as date pickers, calculators etc) 
+   * forms and/or widgets (such as date pickers, calculators etc)
     
-   4. Images (try to include a few containing diagrams, flowcharts or graphs) 
+   * images (try to include a few containing diagrams, flowcharts or graphs)
     
-   5. Video 
+   * video.
 
 For each of these content types, aim to identify at least a couple of pages with that type of content. It may help to use Google to find content, using a search like this:
 
@@ -100,9 +100,9 @@ For each of these content types, aim to identify at least a couple of pages with
 
 * site:your-domain-name.govt.nz video
 
-5. Make the list of pages to be tested up to 20 from the most visited pages on your site/s, favouring the most visited site (e.g. if you need seven more pages from across three sites, you might take 4 pages from the busiest site, two from the second and one from the third, or 3-2-2 – use your judgement on this). 
+5. Make a list of pages to be tested (20 in total) from the most visited pages on your site/s, favouring the most visited site (e.g. if you need 7 more pages from across 3 sites, you might take 4 pages from the busiest site, 2 from the second and 2 from the third, or 3-2-2 — use your judgement on this). 
 
-6. You’re now ready to begin testing these 20 pages
+6. You’re now ready to begin testing these 20 pages.
 
 </div>
 
@@ -119,7 +119,7 @@ For each of these content types, aim to identify at least a couple of pages with
 
 <div class="details test" markdown="1">
 
-### Test 1: Run the aXe automated testing tool
+### Test 1: aXe automated testing
 {% include_relative tests/a11y/axe.md %}
 
 
@@ -225,7 +225,7 @@ Check this with RM for consideration in agency ICT maturity assessment.
 
 ### Consider your risk
 
-After you've completed the Self-Assessment spreadsheet, identify the tests that had the most failures (Row #### of the results spreadsheet). In reviewing those, refer back to the "Consequence of failure" for each corresponding tests and evaluate what that means for the users of your web page or website. Consider what event(s) might arise as a result, and what impact those events could have on your agency. Consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
+After you've completed the Self-Assessment spreadsheet, identify the tests that had the most failures (row #### of the results spreadsheet). In reviewing those, refer back to the 'Consequence of failure' section of each corresponding tests and evaluate what that means for the users of your web page or website. Consider what event(s) might arise as a result, and what impact those events could have on your agency. Consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
 
 * How would you accommodate individuals or groups impacted by those failures, if you were required to? 
 
@@ -236,21 +236,24 @@ After you've completed the Self-Assessment spreadsheet, identify the tests that 
 ### Areas for improvement
 Next review which of the pages you tested recorded the worst results (column ### of the results spreadsheet). 
 
-* Do they suggest that there is any areas of content (or web sites) that could be better served by migration to a more appropriate platform or channel? 
+Do they suggest any:
+* areas of content (or web sites) that could be better served by migration to a more appropriate platform or channel? 
 
-* Do they suggest opportunities for better educating content publishers? 
+* opportunities for better educating content publishers? 
 
-* Do they suggest opportunities for content (or web sites) that could be due for retirement?
+* opportunities for content (or web sites) that could be retired or archived?
 
 The Web Standards team at DIA can help Public Service departments undertake this evaluation. Contact [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz) if you want assistance.
 
-### Report you plans
+### Report your plans
 
-As of 01 July 2017, all publicly available web pages owned by Public Service departments and Non-Public Service departments in the State Services are expected to fully meet the Web Accessibility and Web Usability Standards. In cases where these Standards are not met, agencies are asked to submit a plan for managing any areas of non-conformance. Based on your self-assessment results and review, what plans does your agency's Chief Information Officer or similar have for addressing risks and opportunities, and for improving your agency's web presence with regard to the Web Standards?
+As of 01 July 2017, all publicly available web pages owned by Public Service departments and Non-Public Service departments in the State Services are expected to fully meet the Web Accessibility and Web Usability Standards. In cases where these Standards are not met, agencies are asked to submit a plan for managing any areas of non-conformance.
+
+Based on your self-assessment results and review, what plans does your agency's Chief Information Officer or similar have for addressing risks and opportunities, and for improving your agency's web presence with regard to the Web Standards?
 
 If your agency undertook any activities as a result of the 2014 Web Standards Self-Assessments, we are also interested in learning about those, and the impact they have had.
 
-Attach these plans to your Self-Assessment results and return them to [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz).
+Attach these plans with your Self-Assessment results spreadsheet and return them to [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz).
 
 </div>
 
