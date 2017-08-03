@@ -2,7 +2,7 @@ Testing web content against the Web Accessibility Standard can be manual or auto
 
 There are tools you can use to help with manual testing. The tools we’re using are:
 
-* the [2017 Web Standards Self-Assessment results spreadsheet](2017-ws-self-assessment-results.xlsx)
+* the [2017 Web Standards Self-Assessment results spreadsheet](/guidance/assessment/2017-ws-self-assessment-results.xlsx)
 * Chrome’s built-in developer tools — to inspect a web page’s code 
 * Web Developer extension for Chrome — a semi-automated testing tool 
 * Chrome Device Mode — to simulate viewport sizes, and  
