@@ -66,7 +66,7 @@ If you’re doing the 2017 Web Standard Self-Assessment, you need to:
 
 * know your website well enough to pick pages based on their content
 
-* download the [2017 Web Standards Self-Assessment results spreadsheet](2017-ws-self-assessment-results.xlsx).
+* download the [2017 Web Standards Self-Assessment results spreadsheet (Xlsx 25KB)](https://govtnz.github.io/web-standards/guidance/assessment/2017-ws-self-assessment-results.xlsx).
 
 We’ll be holding workshops to demonstrate the various testing techniques. Come along if you have questions. Someone will be there to answer any testing questions you have. If you're not sure how to use the software, bring a laptop with the software installed. We can show you how to use it and test your web pages.
 
