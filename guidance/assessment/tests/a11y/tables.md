@@ -123,7 +123,7 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 	* has an `id` attribute, and the data cell references that `id`'s value using a `headers` attribute  — mostly used for complex tables 
 	* doesn’t use `<th>` but instead uses the ARIA "rowheader" or "columnheader" role in the header cell element. 
 
-4. If none of these options have been used to markup the header cell, record a failure, noting the reasonß. 
+4. If none of these options have been used to markup the header cell, record a failure, noting the reason. 
 
     <h5>Layout tables</h5>
 
