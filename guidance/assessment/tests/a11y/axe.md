@@ -2,7 +2,7 @@ You should run the aXe tool on each page you test. You should also run it for ea
 
 1. Run the aXe extension in Chrome by opening the developer tools.
 
-2. Along the top line of the developer tools pane, you should be able to select aXe, if you have it installed. (You may have to hit the 》toggle on the right of the toolbar to reveal the “aXe” option.)
+2. Along the top line of the developer tools pane, you should be able to select aXe, if you have it installed. (You may have to hit the 》toggle on the right of the toolbar to reveal the "aXe" option.)
 
 	![Screenshot showing location of aXe extension in Chrome](https://govtnz.github.io/web-standards/assets/img/aXe-button.jpg) 
 

@@ -7,7 +7,7 @@
 
 #### What are the privacy requirements?
 
-Each website must have a privacy statement (“Privacy Statement”). The home page must include a visible link, called "Privacy policy" or something similarly unambiguous, to the Privacy Statement.
+Each website must have a privacy statement ("Privacy Statement"). The home page must include a visible link, called "Privacy policy" or something similarly unambiguous, to the Privacy Statement.
 
 The Privacy Statement needs to include several bits of information:
 
@@ -41,9 +41,9 @@ The Privacy Statement needs to include several bits of information:
 
 3. Check that the Privacy Statement clearly indicates all of the following, and otherwise record a failure, noting the reason:
 
-	* the scope of the statement (e.g. “This privacy notice applies to personal information collected on [the organisation’s] website: ministry.govt.nz.”)
+	* the scope of the statement (e.g. "This privacy notice applies to personal information collected on [the organisation’s] website: ministry.govt.nz.")
 
-	* the scope of the statement and that it applies to the website (e.g. “This privacy notice applies to personal information collected on ministry.govt.nz and agency.govt.nz.”)
+	* the scope of the statement and that it applies to the website (e.g. "This privacy notice applies to personal information collected on ministry.govt.nz and agency.govt.nz.")
 
 	* the circumstances in which personal information is collected, by whom it is held (e.g. the responsible organisation and/or third parties) and any choices users have as to whether such information is collected in the first place
 

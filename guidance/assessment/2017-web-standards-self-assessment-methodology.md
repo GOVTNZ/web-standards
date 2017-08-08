@@ -10,7 +10,7 @@ draft: true
 
 ### New Zealand Government Web Standards
 
-The [New Zealand Government Web Standards](https://webtoolkit.govt.nz/standards/) (“Web Standards”) are made up of 2 individual standards:
+The [New Zealand Government Web Standards](https://webtoolkit.govt.nz/standards/) ("Web Standards") are made up of 2 individual standards:
 
 1. The [Web Accessibility Standard](https://webtoolkit.govt.nz/standards/web-accessibility-standard/) is a profile of the World Wide Web Consortium’s (W3C) [Web Content Accessibility Guidelines v2.0](https://www.w3.org/TR/WCAG20/) (WCAG 2.0). WCAG 2.0 is at the heart of web accessibility requirements in a number of jurisdictions including Australia, Canada and the United Kingdom. The New Zealand profile defines some custom exceptions to WCAG 2.0 for use within the New Zealand Government. 
 

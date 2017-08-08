@@ -7,11 +7,11 @@
 
 #### What are the contact information requirements?
 
-The website must link to a web page (“Contact Us Page”) that provides contact information for obtaining help related to the Website or for contacting the New Zealand Government organisation responsible for the website.
+The website must link to a web page ("Contact Us Page") that provides contact information for obtaining help related to the Website or for contacting the New Zealand Government organisation responsible for the website.
 
 An unambiguous link to the Contact Us Page must be visible on the website’s home page.
 
-The Contact Us Page must clearly indicate that it provides contact information for the website (e.g. “For enquiries related to ministry.govt.nz or the Ministry…”), and include the following information:
+The Contact Us Page must clearly indicate that it provides contact information for the website (e.g. "For enquiries related to ministry.govt.nz or the Ministry…"), and include the following information:
 
 * an email address that is regularly monitored by the organisation responsible for the website
 

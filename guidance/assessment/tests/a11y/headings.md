@@ -41,7 +41,7 @@ Note: the heading that introduces the main content is usually the heading with t
 
 	* act like a heading, e.g. it doesn’t introduce or describe the content after it. 
 
-4. If content looks like and acts like a heading, but isn’t outlined as a heading, inspect its code to see if the heading is wrapped in a basic element like a <div> or <p> with an ARIA role=“heading” and an aria-level attribute to show what level it is. For example, `<p role="heading" aria-level="1">About Us</p>`. If it isn’t, record a failure, noting the reason. 
+4. If content looks like and acts like a heading, but isn’t outlined as a heading, inspect its code to see if the heading is wrapped in a basic element like a <div> or <p> with an ARIA role="heading" and an aria-level attribute to show what level it is. For example, `<p role="heading" aria-level="1">About Us</p>`. If it isn’t, record a failure, noting the reason. 
 
 5. Check each heading to make sure the heading level is the appropriate given its position in the page’s content hierarchy. Otherwise, record a failure, noting the reason. 
 

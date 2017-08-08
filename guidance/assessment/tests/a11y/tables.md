@@ -16,7 +16,7 @@ A data table’s column and row structure is expressed using the proper HTML mar
 
 ###### Simple tables
 
-Simple tables have one row of column headers and maybe one column of row headers as well. The easiest way to make a simple table accessible is to markup column and row headers with `<th>` header elements. The header content describes what each column or row of cells represents. Sometimes header cells use the scope attribute, e.g. `<th scope=“col”>` to emphasise that the header applies to the entire column (or `<th scope=“row”>` for a row header), but it isn’t necessary for a simple table. 
+Simple tables have one row of column headers and maybe one column of row headers as well. The easiest way to make a simple table accessible is to markup column and row headers with `<th>` header elements. The header content describes what each column or row of cells represents. Sometimes header cells use the scope attribute, e.g. `<th scope="col">` to emphasise that the header applies to the entire column (or `<th scope="row">` for a row header), but it isn’t necessary for a simple table. 
 
 ###### Example of a simple table
 
@@ -104,7 +104,7 @@ If the  table is a layout table, it must not include any of following HTML eleme
 * `<th>`, `<thead>`, `<tfoot>` and `<caption>` elements 
 * `summary`, `scope` or `headers` attributes. 
 
-If the table has any of these, the `<table>` element must have a `role` attribute with a value of “presentation” or “none”, e.g. `<table role=“presentation”>`. This tells the browser and assistive technologies to ignore the table markup and just read the content as if it the table structure wasn’t there.
+If the table has any of these, the `<table>` element must have a `role` attribute with a value of "presentation" or "none", e.g. `<table role="presentation">`. This tells the browser and assistive technologies to ignore the table markup and just read the content as if it the table structure wasn’t there.
 
 </div>
 
@@ -119,7 +119,7 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 2. Look at each data table. Is it simple or complex? 
 3. Look at the markup of its column and/or row headers. Once you record a pass you can move to the next test. Inspect the code in the header cell for any of the following: 
 	* is marked up with a `<th>` element — most appropriate for simple tables 
-	* uses a `<th>` with a scope attribute e.g. `<th scope="col">` for a column header, or `<th scope=“row”>` for a row header — mostly used for complex tables 
+	* uses a `<th>` with a scope attribute e.g. `<th scope="col">` for a column header, or `<th scope="row">` for a row header — mostly used for complex tables 
 	* has an `id` attribute, and the data cell references that `id`'s value using a `headers` attribute  — mostly used for complex tables 
 	* doesn’t use `<th>` but instead uses the ARIA "rowheader" or "columnheader" role in the header cell element. 
 

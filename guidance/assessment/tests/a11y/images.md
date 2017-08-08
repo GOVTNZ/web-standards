@@ -123,7 +123,7 @@ Need examples!
         <td>The image is too complex to describe with just alt text, e.g. a chart, graph or infographic.</td>
         <td>Provide both alt text and a longer text alternative to relate the image’s meaningful information. This can be done in a number of ways:
           <ul>
-            <li>use a longdesc attribute that links to the description of the image, e.g. <code>&lt;img alt=“Alt text” longdesc=“URL to long description”&gt;</code></li>
+            <li>use a longdesc attribute that links to the description of the image, e.g. <code>&lt;img alt="Alt text" longdesc="URL to long description"&gt;</code></li>
             <li>put the image and the long description text together in a <code>&lt;figure&gt;</code> element</li>
             <li>include the long description as text immediately following the image.</li>
           </ul>
