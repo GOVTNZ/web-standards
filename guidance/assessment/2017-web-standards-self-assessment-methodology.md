@@ -121,8 +121,8 @@ For each of these content types, aim to identify at least a couple of pages with
 
 <div class="details test" markdown="1">
 
-### Test 1: aXe automated testing
-{% include_relative tests/a11y/axe.md %}
+### Test 1: Automated testing with aXe
+{% include_relative tests/a11y/axe-for-methodology.md %}
 
 
 </div>

@@ -25,7 +25,7 @@ The following are tests that anyone can perform with any web content to get an i
 
 <div class="details test" markdown="1">
 
-### Test 1: Run the aXe automated testing tool
+### Test 1: Automated testing with aXe
 {% include_relative tests/a11y/axe.md %}
 
 </div>
