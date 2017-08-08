@@ -2,7 +2,6 @@ Testing web content against the Web Accessibility Standard can be manual or auto
 
 There are tools you can use to help with manual testing. The tools we’re using are:
 
-* the [2017 Web Standards Self-Assessment results spreadsheet (Xlsx 25KB)](https://govtnz.github.io/web-standards/guidance/assessment/2017-ws-self-assessment-results.xlsx)
 * Chrome’s built-in developer tools — to inspect a web page’s code 
 * Web Developer extension for Chrome — a semi-automated testing tool 
 * Chrome Device Mode — to simulate viewport sizes, and  
@@ -10,11 +9,9 @@ There are tools you can use to help with manual testing. The tools we’re using
 
 ### Developer tools
 
-When you need to inspect the code, use the built-in developer tools.
+When you need to inspect the code, use the built-in developer tools. To open the developer tools, press <kbd>F12</kbd> in Windows, and <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>I</kbd> on a Mac. 
 
-1. As a general rule, right-click on an element in the web page. 
-2. Select the option to inspect to open the developer tools.  
-3. The element you clicked on will be highlighted.  
+Another way to open the developer tools is to right-click on any element in the web page, and select "Inspect" from the contextual menu. 
 
 [Explore Chrome’s developer tools](https://developers.google.com/web/tools/chrome-devtools/)
 
