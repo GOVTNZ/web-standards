@@ -54,19 +54,19 @@ The Annual Self-Assessment Methodology can't tell you if your website is fully a
 
 <div class="details top" markdown="1">
 
-## 2. Skills you need for doing the self-assessment
+## 2. Prerequisites for the Self-Assessment
 
-If you’re doing the 2017 Web Standard Self-Assessment, you need to:
+If you’re doing the 2017 Web Standard Self-Assessments, you need:
 
-* have basic knowledge HTML — enough to be able to inspect code and understand how elements are nested
+* to have basic knowledge HTML — enough to be able to inspect code and understand how elements are nested
 
-* use Chrome with the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) and [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) extensions installed
+* to know your website well enough to pick pages based on their content
 
-* have another browser (Internet Explorer or Firefox) for testing keyboard use
+* Chrome with the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) and [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) extensions installed
 
-* know your website well enough to pick pages based on their content
+* another browser (Internet Explorer or Firefox) for testing keyboard use
 
-* download the [2017 Web Standards Self-Assessment results spreadsheet (Xlsx 25KB)](https://govtnz.github.io/web-standards/guidance/assessment/2017-ws-self-assessment-results.xlsx).
+* the [2017 Web Standards Self-Assessment results spreadsheet (XLSX 25KB)](https://govtnz.github.io/web-standards/guidance/assessment/2017-ws-self-assessment-results.xlsx).
 
 We’ll be holding workshops to demonstrate the various testing techniques. Come along if you have questions. Someone will be there to answer any testing questions you have. If you're not sure how to use the software, bring a laptop with the software installed. We can show you how to use it and test your web pages.
 
