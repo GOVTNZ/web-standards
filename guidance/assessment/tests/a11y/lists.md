@@ -82,17 +82,11 @@ Sometimes one or more list items (`<li>`...`</li>`) can contain another list. Th
 </div>
 
 #### How to test
-
 1. Scan the page you’re testing for content presented as a list of items. 
-
 2. Open the Web Developer extension and select 'Outline', and 'Outline Block level elements'. This will show you, among other things, all the headings, lists and tables on the page. It will also indicate which tag, e.g. `<ul>`, has been used to mark up each element. 
-
 3. Make sure that the list uses the correct HTML markup for the type of list it is:  
 	* `<ol>` or `<ul>` and `<li>` for numbered or bulleted lists 
 	* `<dl>`, `<dt>` and `<dd>` for description or definition lists.
-
 4. If the list does not use the correct HTML markup, record a failure, noting the reason.
-
 5. If the list uses the wrong list type, e.g. a sequence of steps is marked up as a `<ul>` instead of an `<ol>`, record a failure, noting the reason. 
-
 6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport.
