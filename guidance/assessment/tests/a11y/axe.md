@@ -12,4 +12,4 @@ You should run the aXe tool on each page you test. You should also run it for ea
 
 5. Review the violations, noting and recording the individual failures and their causes.
 
-7. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, record ‘no change’ and don’t test for that viewport.
+7. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, record ‘no change' and don't test for that viewport.

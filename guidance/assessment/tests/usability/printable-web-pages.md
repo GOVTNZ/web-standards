@@ -7,7 +7,7 @@
 
 #### What are the requirements for printable web pages?
 
-Each web page’s main content must be printable on standard sheets of paper. 
+Each web page's main content must be printable on standard sheets of paper. 
 
 It is recommended, but not required, that the printed content leave out the following items: 
 
