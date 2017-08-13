@@ -7,7 +7,7 @@
 
 #### What information should links to non-HTML files have?
 
-When a web page includes a link to a non-HTML file (e.g. a video file), that link must be accompanied by information indicating the file’s format (e.g. mp4, PDF, MS Word) and size. 
+When a web page includes a link to a non-HTML file (e.g. a video file), that link must be accompanied by information indicating the file's format (e.g. mp4, PDF, MS Word) and size. 
 
 Note that this requirement does not apply to such links on archived web pages. 
 

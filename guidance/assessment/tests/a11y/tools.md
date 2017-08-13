@@ -1,8 +1,8 @@
 Testing web content against the Web Accessibility Standard can be manual or automated. Automated accessibility tests only address approximately 25% of accessibility requirements. Running automated tests is generally fairly easy.
 
-There are tools you can use to help with manual testing. The tools we’re using are:
+There are tools you can use to help with manual testing. The tools we're using are:
 
-* Chrome’s built-in developer tools — to inspect a web page’s code 
+* Chrome's built-in developer tools — to inspect a web page's code 
 * Web Developer extension for Chrome — a semi-automated testing tool 
 * Chrome Device Mode — to simulate viewport sizes, and  
 * aXe extension for Chrome — the automated testing tool. 
@@ -13,17 +13,17 @@ When you need to inspect the code, use the built-in developer tools. To open the
 
 Another way to open the developer tools is to right-click on any element in the web page, and select "Inspect" from the contextual menu. 
 
-[Explore Chrome’s developer tools](https://developers.google.com/web/tools/chrome-devtools/)
+[Explore Chrome's developer tools](https://developers.google.com/web/tools/chrome-devtools/)
 
 [Inspect and edit pages and styles in Chrome](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/)
 
 We recommend opening the developer tools either as a separate window or at the bottom of the screen. 
 
-If you’re new to using developer tools, try them out before starting the tests. And be sure to attend one or more of the self-assessment clinics that will be offered and ask for a demo.
+If you're new to using developer tools, try them out before starting the tests. And be sure to attend one or more of the self-assessment clinics that will be offered and ask for a demo.
 
 ### Web Developer extension
 
-The Web Developer extension for Chrome has various features to help simplify accessibility testing. We’ll use it to speed up checking headings, lists and image alt text. But it’s well worth looking at the other things it has to offer.
+The Web Developer extension for Chrome has various features to help simplify accessibility testing. We'll use it to speed up checking headings, lists and image alt text. But it's well worth looking at the other things it has to offer.
 
 #### Get the extension
 
@@ -31,7 +31,7 @@ The Web Developer extension for Chrome has various features to help simplify acc
 
 #### Use the extension
 
-Once you’ve installed the extension, you can access it using the cog icon on the toolbar to the right of the address bar (shown below).
+Once you've installed the extension, you can access it using the cog icon on the toolbar to the right of the address bar (shown below).
 
 ![Screenshot showing Web Developer extension in Chrome](https://govtnz.github.io/web-standards/assets/img/chrome-wd-ext.jpg)
 
@@ -43,20 +43,20 @@ Once you’ve installed the extension, you can access it using the cog icon on t
 
 ### Chrome Device Mode
 
-You’ll be asked to run some tests at a few screen resolutions or viewports. Accessibility issues that only appear on smaller screens will get picked up this way.
+You'll be asked to run some tests at a few screen resolutions or viewports. Accessibility issues that only appear on smaller screens will get picked up this way.
 
-As well as testing your pages at your browser’s normal desktop size, you also need to test at the following viewport sizes: 
+As well as testing your pages at your browser's normal desktop size, you also need to test at the following viewport sizes: 
 
 * 320 x 568px - the size of a small screen mobile phone like an iPhone 5
 * 768 x 1024px - roughly the size of a tablet like an iPad.
 
 If you don't see any changes in the page content or layout, enter 'no change' in the cell for tablet-size results.
 
-To simulate a mobile or tablet experience on a desktop computer, you could resize your browser to approximately the size of a tablet or a smartphone. But it’s easier to use built-in tools like Chrome’s Device Mode to help with this. 
+To simulate a mobile or tablet experience on a desktop computer, you could resize your browser to approximately the size of a tablet or a smartphone. But it's easier to use built-in tools like Chrome's Device Mode to help with this. 
 
 <div class="details" markdown="1">
 
-#### Using Chrome’s Device Mode
+#### Using Chrome's Device Mode
 
 (For more information, see [Using Chrome's Device Mode to simulate mobile devices](https://developers.google.com/web/tools/chrome-devtools/device-mode/).)
 

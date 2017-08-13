@@ -14,7 +14,7 @@ There are 3 types of list in HTML:
 
 ##### Unordered lists
 
-These lists are used where the order of the list items doesn’t matter. They’re marked up using the `<ul>` element. Each list item is preceded by a simple bullet or similar. 
+These lists are used where the order of the list items doesn't matter. They're marked up using the `<ul>` element. Each list item is preceded by a simple bullet or similar. 
 
 In unordered lists, the individual list items are marked up as `<li>` elements.
 
@@ -30,7 +30,7 @@ In unordered lists, the individual list items are marked up as `<li>` elements.
 
 ##### Ordered lists
 
-These lists are used where the order of the list items has an impact on their meaning. They’re marked up with an `<ol>` element. Each list item in an ordered list is preceded by a number or letter. These can be arabic numerals, roman numerals, upper or lowercase letters.
+These lists are used where the order of the list items has an impact on their meaning. They're marked up with an `<ol>` element. Each list item in an ordered list is preceded by a number or letter. These can be arabic numerals, roman numerals, upper or lowercase letters.
 
 In ordered lists, the individual list items are marked up as `<li>` elements.
 
@@ -82,11 +82,22 @@ Sometimes one or more list items (`<li>`...`</li>`) can contain another list. Th
 </div>
 
 #### How to test
+<<<<<<< HEAD
 1. Scan the page you’re testing for content presented as a list of items. 
+=======
+
+1. Scan the page you're testing for content presented as a list of items. 
+
+>>>>>>> 7d39f43ae2877d6fc45782328908991d653e6041
 2. Open the Web Developer extension and select 'Outline', and 'Outline Block level elements'. This will show you, among other things, all the headings, lists and tables on the page. It will also indicate which tag, e.g. `<ul>`, has been used to mark up each element. 
 3. Make sure that the list uses the correct HTML markup for the type of list it is:  
 	* `<ol>` or `<ul>` and `<li>` for numbered or bulleted lists 
 	* `<dl>`, `<dt>` and `<dd>` for description or definition lists.
 4. If the list does not use the correct HTML markup, record a failure, noting the reason.
 5. If the list uses the wrong list type, e.g. a sequence of steps is marked up as a `<ul>` instead of an `<ol>`, record a failure, noting the reason. 
+<<<<<<< HEAD
 6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport.
+=======
+
+6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport.
+>>>>>>> 7d39f43ae2877d6fc45782328908991d653e6041
