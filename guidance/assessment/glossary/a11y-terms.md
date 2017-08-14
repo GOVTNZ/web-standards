@@ -2,7 +2,7 @@ CSS
 : Cascading Style Sheets. These are the most common way to describe how HTML elements should look on a page.
 
 focus
-: when you use the Tab key to move forward through a web page, the browser sets keyboard 'focus' to each interactive component (e.g. links, buttons, text inputs, etc). When something has focus, you're able to interact with it using your keyboard, like pressing Enter on a link. There should also be some kind of visual focus indicator that makes it clear to sighted users which element currently has focus.
+: when you use the <kbd>Tab</kbd> key to move forward through a web page, the browser sets keyboard 'focus' to each interactive component (e.g. links, buttons, text inputs, etc). When something has focus, you're able to interact with it using your keyboard, like pressing <kbd>Enter</kbd> on a link. There should also be some kind of visual focus indicator that makes it clear to sighted users which element currently has focus.
 
 high-stakes content
 : critical content that people need. Examples include content about:

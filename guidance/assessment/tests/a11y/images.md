@@ -6,7 +6,7 @@
 
 #### What you should know about images and alt text
 
-Images that aren't just decorative must have a text alternative that could replace the meaningful information in the image. This is called alt text and it's usually done by using the alt attribute on the `<img>` element that inserted the image in the page. Decorative images have an empty alt attribute `<img alt="">`.
+Images that aren't just decorative must have a text alternative that could replace the meaningful information in the image. This is called alt text and it's usually done by using the `alt` attribute on the `<img>` element that inserted the image in the page. Decorative images have an empty alt attribute `<img alt="">`.
 
 People don't always agree on what the correct alt text should be.  If you feel the alt text reasonably serves as a text replacement for the content of the image, given its surrounding context, that's enough to pass the test.
 
@@ -44,8 +44,8 @@ For example, the [Govt.nz website](https://www.govt.nz/) uses a CSS background i
 In this example, to inspect the code for the CSS image:
 
 1. Right-click on the image and inspect the code. The developer tools window opens and highlights an `<a>` element in the page. 
-2. Look in the Styles panel for something that says background or background-image with a url(...) in its value. It will usually be near the top. 
-3. The `<a>` element you're currently inspecting doesn't have a background image attached. Try inspecting its parent element, in this case the `<div>` containing the link. You'll see the `<div>` has a `background-image` property with a "url(...)" in the value, so you've found the right element. 
+2. Look in the Styles panel for something that says background or background-image with a `url(...)` in its value. It will usually be near the top. 
+3. The `<a>` element you're currently inspecting doesn't have a background image attached. Try inspecting its parent element, in this case the `<div>` containing the link. You'll see the `<div>` has a `background-image` property with a `url(...)` in the value, so you've found the right element. 
 4. That `<div>` contains a link, which you've already inspected. Inside that `<a>` element is a `<span>` containing text that matches the text in the logo image. That text may not be visible to sighted users, but it serves as the text alternative for the CSS background image. It also serves as the link text for the link. 
 
 </div>
@@ -68,7 +68,7 @@ Need examples!
 
 2. Assess each image like this:
 
-    a. If any image does not have an alt attribute at all, record a failure, noting the reason and go to the next test.
+    a. If any image does not have an `alt` attribute at all, record a failure, noting the reason and go to the next test.
 
     b. Is the image part of a link? If it's not, move on to step number 3 below. If it is, inspect it to view the alt text. It must meet one of these criteria:
 
@@ -151,4 +151,4 @@ If you happen to see any of these, record a failure, noting the reason.
 
 * An image conveys information using different colours, but the alternative text doesn't include that information.
 
-* A link contains only an img element with an empty alt attribute. Record a failure of 4.1.2.
+* A link contains only an `img` element with an empty `alt` attribute. Record a failure of 4.1.2.

@@ -10,7 +10,7 @@ Information, structure, and relationships conveyed through presentation must als
 
 A heading introduces or describes the content that follows it. It should also stand out from the rest of the page. If something looks and acts like a heading, it should be marked up as an HTML heading. Similarly, something that is marked up as an HTML heading should look and act like a heading.
 
-As well as context, headings show a parent-child relationship between content elements on a page. The section you're reading now is a child of 'Test 2: Headings', which in turn is a child of 'Tests for each page'. Those parent-child relationships shown on the page must be faithfully mirrored in the hierarchy of `<h1>` to `<h6>` headings in the HTML markup. 
+As well as context, headings show a parent-child relationship between content elements on a page. The section you're reading now has a heading, 'What you should know about headings', and is a child of the section with the heading,'Test 2: Headings', which in turn is a child of 'Tests for each page'. Those parent-child relationships shown on the page must be faithfully mirrored in the hierarchy of `<h1>` to `<h6>` headings in the HTML markup. 
 
 Think about whether:
 * your content is structured logically
@@ -41,7 +41,7 @@ Note: the heading that introduces the main content is usually the heading with t
 
 	* act like a heading, e.g. it doesn't introduce or describe the content after it. 
 
-4. If content looks like and acts like a heading, but isn't outlined as a heading, inspect its code to see if the heading is wrapped in a basic element like a <div> or <p> with an ARIA role="heading" and an aria-level attribute to show what level it is. For example, `<p role="heading" aria-level="1">About Us</p>`. If it isn't, record a failure, noting the reason. 
+4. If content looks like and acts like a heading, but isn't outlined as a heading, inspect its code to see if the heading is wrapped in a basic element like a `<div>` or `<p>` with an ARIA `role="heading"` and an `aria-level` attribute to show what level it is. For example, `<p role="heading" aria-level="1">About Us</p>`. If it isn't, record a failure, noting the reason. 
 
 5. Check each heading to make sure the heading level is the appropriate given its position in the page's content hierarchy. Otherwise, record a failure, noting the reason. 
 
