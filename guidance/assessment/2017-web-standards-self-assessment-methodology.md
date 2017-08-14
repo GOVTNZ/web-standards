@@ -207,7 +207,11 @@ Check this with RM for consideration in agency ICT maturity assessment.
 
 ### Consider your risk
 
+<<<<<<< HEAD
 After you've completed the Self-Assessment spreadsheet, identify the tests that had the most failures (row 66 of the results spreadsheet). In reviewing those, refer back to the 'Consequence of failure' section for each test and evaluate what that means for the users of your web page or website. Consider what events might arise as a result of the failure, and what impact those events could have on your agency. Consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
+=======
+After you've completed the Self-Assessment spreadsheet, identify the tests that had the most failures (row 66 of the 'Manual tests' workbook in the results spreadsheet). In reviewing those, refer back to the 'Consequence of failure' section of each corresponding tests and evaluate what that means for the users of your web page or website. Consider what event(s) might arise as a result, and what impact those events could have on your agency. Consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
+>>>>>>> 7ce948750e4f14e0246200c4d085e5e59630ce33
 
 * How would you accommodate individuals or groups impacted by those failures, if you were required to? 
 * Do you need to escalate any risks to your management team, or update any risk registers that your agency maintains? 

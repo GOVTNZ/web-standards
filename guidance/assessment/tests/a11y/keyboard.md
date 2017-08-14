@@ -10,7 +10,7 @@
 
 The keyboard is one of the more fundamental assistive devices because many other assistive technologies translate their commands into what are effectively keyboard commands. This means that a keyboard accessible website has a better chance of being usable with assistive technologies.
 
-Keyboard users need to be able to navigate to and operate any interactive element on a page that can be operated with a mouse. The <kbd>Tab</kbd> key moves focus forward from one interactive element (e.g. link, button) to the next. Use the <kbd>Shift</kbd>+<kbd>Tab</kbd> keys to move focus back up to the previous interactive element. Links are activated by the <kbd>Enter</kbd> key, while buttons are activated with the <kbd>Spacebar</kbd> or the <kbd>Enter</kbd> key. The arrow keys are used to change the selected item in a group of radio button. They might also be used to move focus around the components in a custom web application. In fact, any element on a web page can be programmed to perform some function upon the press of any key.
+Keyboard users need to be able to navigate to and operate any interactive element on a page that can be operated with a mouse. The <kbd>Tab</kbd> key moves focus forward from one interactive element (e.g. link, button) to the next. Use the <kbd>Shift</kbd>+<kbd>Tab</kbd> keys to move focus back up to the previous interactive element. Links are activated by the <kbd>Enter</kbd> key, while buttons are activated with the <kbd>Spacebar</kbd> or the <kbd>Enter</kbd> key. The arrow keys are used to change the selected item in a group of radio buttons. They might also be used to move focus around the components in a custom web application. In fact, any element on a web page can be programmed to perform some function upon the press of any key.
 
 As you use the <kbd>Tab</kbd> key to move through the page, keep in mind that there should be a visible focus indicator showing you where your keyboard focus is. It must be something that's easy to see, like a border or highlight.
 
@@ -20,7 +20,7 @@ Also remember that unlike screen readers, you won't see focus move to everything
 
 ##### More about Popup boxes
 
-Popup boxes (sometimes called modal or lightboxes) are meant to stop the user from doing anything else on the page until they've finished with the box. An example is an image gallery lightbox — while viewing the images, the page content behind it is not available.
+Popup boxes (sometimes called modal dialogs, modals, or lightboxes) are meant to stop the user from doing anything else on the page until they've finished with the box. An example is an image gallery lightbox — while viewing the images, the page content behind it is not available.
 
 Typically the rest of the page will be partly dimmed to show that mouse users can't click on anything outside the box. Keyboard focus should also be trapped within the box, and all content outside it should be unavailable to user interaction, including assistive technologies like screen readers.
 
@@ -42,9 +42,9 @@ You need to test keyboard use for any type of content on your page. Not all the 
 
     <h5>Links and buttons</h5>
 
-3. Use the <kbd>Tab</kbd> key to move to every link and press <kbd>Enter</kbd>.  Use the browser's back button (<kbd>Alt</kbd> + <kbd>Left arrow</kbd> or <kbd>Command</kbd> + <kbd>Left arrow</kbd> on a keyboard) to go back to the previous page. If the link doesn't work with the <kbd>Enter</kbd> key, record a failure of keyboard functionality, noting the reason in the report.
+3. Use the <kbd>Tab</kbd> key to move to every link and press <kbd>Enter</kbd>.  If the link doesn't work with the <kbd>Enter</kbd> key, record a failure of keyboard functionality, noting the reason in the report. Use the browser's back button (<kbd>Alt</kbd>+<kbd>Left arrow</kbd> on a Windows keyboard, or <kbd>Command</kbd>+<kbd>[</kbd> on a Mac keyboard) to go back to the previous page. 
 
-4. Use the <kbd>Tab</kbd> key to move to each button and press the <kbd>Spacebar</kbd>. Check that the button performs the same action as when clicked on with a mouse. If you can't activate the button with the <kbd>Spacebar</kbd>, record this as a failure of keyboard functionality.  
+4. Use the <kbd>Tab</kbd> key to move to each button and press the <kbd>Spacebar</kbd>. Check that the button performs the same action as when clicked with a mouse. If you can't activate the button with the <kbd>Spacebar</kbd>, record this as a failure of keyboard functionality.  
 
     <h5>Popup boxes</h5>
 
@@ -55,7 +55,7 @@ You need to test keyboard use for any type of content on your page. Not all the 
 
 6. If you can't do all these things with the keyboard alone, record a failure of keyboard functionality, noting the reason. 
 
-7. If the box is a modal or lightbox, make sure your tabbing is being restricted to the box. If you tab past the last item in the box, focus needs to loop back to the beginning of the box. If the keyboard focus continues on in the background, record a failure of keyboard functionality, noting the reason, then close the box and keep testing. 
+7. If the box is a modal or lightbox, make sure when repeatedly pressing the <kbd>Tab</kbd> key that focus is being restricted to the box. When focus is on the last item in the box, pressing the <kbd>Tab</kbd> key must move focus back to the first focusable item in the box. If the keyboard focus continues on in the page behind the box, record a failure of keyboard functionality, noting the reason, then close the box and keep testing. 
 
     <h5>Videos and carousels</h5>
 
@@ -80,7 +80,7 @@ You need to test keyboard use for any type of content on your page. Not all the 
         * navigating the day, week, month and year using the <kbd>Tab</kbd> and/or arrow keys? 
         * select a specific date with the <kbd>Enter</kbd> key or <kbd>Spacebar</kbd>? 
     * up/down arrow keys to choose from drop-down options? 
-    * enter key to submit the form? 
+    * <kbd>Enter</kbd> key to submit the form? 
 
     <h5>Retest at other viewports</h5>
 
