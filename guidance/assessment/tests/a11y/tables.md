@@ -125,14 +125,15 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 
 #### How to test
 
-1. Scan the page you're testing for tables. 
-2. For each table, decide if it's a data table or a layout table. 
-3. Inspect the source code associated with each table. 
+1. Scan the page you’re testing for tables. 
+2. For each table, decide if it’s a data table or a layout table. 
+3. If it's a data table, follow the steps under Testing data tables. If it's a layout table, follow the steps under Testing layout tables. 
 
-    <h5>Data tables</h5>
+##### Testing data tables
 
-2. Look at each data table. Is it simple or complex? 
-3. Look at the markup of its column and/or row headers. Once you record a pass you can move to the next test. Inspect the code in the header cell for any of the following: 
+1. Look at each data table. Is it simple or complex?
+2. Inspect the source code associated with each table.
+3. Look at the HTML markup of its column and/or row headers. Once you record a pass you can move to the next test. Inspect the code in the header cell for any of the following: 
 	* is marked up with a `<th>` element — most appropriate for simple tables 
 	* uses a `<th>` with a `scope` attribute e.g. `<th scope="col">` for a column header, or `<th scope="row">` for a row header — mostly used for complex tables 
 	* has an `id` attribute, and the data cell references that `id`'s value using a `headers` attribute  — mostly used for complex tables 
@@ -140,14 +141,13 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 
 4. If none of these options have been used to markup the header cell, record a failure, noting the reason. 
 
-    <h5>Layout tables</h5>
+##### Testing layout tables
 
-5. If it's a layout table, record a failure, noting the reason, if the `<table>`  has any of the following: 
+1. If it’s a layout table, record a failure, noting the reason, if the `<table>`  has any of the following: 
 	* `<th>`, `<thead>`, `<tfoot>` and `<caption>` elements 
 	* a `summary` attribute on the `<table>` element 
 	* `scope` or `headers` attributes on `<td>` elements. 
-
-6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport. 
+2. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter ‘no change’ in the results and don’t test for that viewport. 
 
 ##### Other failure points
 

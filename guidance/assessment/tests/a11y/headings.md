@@ -26,14 +26,24 @@ Note: the heading that introduces the main content is usually the heading with t
 #### How to test
 
 1. If you have Device Mode on or the developer tools still open, close them.
+<<<<<<< HEAD
+2. On the page you’re testing, go to the Web Developer extension and select 'Outline', then click:
+=======
 
 2. On the page you're testing, go to the Web Developer extension and select 'Outline', then click:
 
+>>>>>>> 7d39f43ae2877d6fc45782328908991d653e6041
 	* 'Show Element Tag Names', and
-
 	* 'Outline Headings'.
-
 	 This will add a border around anything marked up as a heading and will show which heading tag, e.g. `<h3>`, has been used.
+<<<<<<< HEAD
+3. Record a failure, noting the reason, if content is outlined as a heading, but doesn’t: 
+	* look like a heading, e.g. it is not larger and bolder, or
+	* act like a heading, e.g. it doesn’t introduce or describe the content after it. 
+4. If content looks like and acts like a heading, but isn’t outlined as a heading, inspect its code to see if the heading is wrapped in a basic element like a <div> or <p> with an ARIA role="heading" and an aria-level attribute to show what level it is. For example, `<p role="heading" aria-level="1">About Us</p>`. If it isn’t, record a failure, noting the reason. 
+5. Check each heading to make sure the heading level is the appropriate given its position in the page’s content hierarchy. Otherwise, record a failure, noting the reason. 
+6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport. 
+=======
 
 3. Record a failure, noting the reason, if content is outlined as a heading, but doesn't: 
 
@@ -46,3 +56,4 @@ Note: the heading that introduces the main content is usually the heading with t
 5. Check each heading to make sure the heading level is the appropriate given its position in the page's content hierarchy. Otherwise, record a failure, noting the reason. 
 
 6. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport. 
+>>>>>>> 7d39f43ae2877d6fc45782328908991d653e6041
