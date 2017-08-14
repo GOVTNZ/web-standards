@@ -1,3 +1,5 @@
+**Consequence of failure:** The consequence of each failure noted by the aXe tool can be found by following the 'Learn more' link for that violation from within the aXe tool.
+
 You need to run the aXe tool on each page you test. You also need to run it for each viewport because different responsive designs may present different accessibility errors.
 1. Run the aXe extension in Chrome by opening the developer tools.
 2. Along the top line you should be able to select aXe, if you have it installed. (You may have to hit the &gt;&gt; toggle on the right of the toolbar to reveal the “aXe" option.)

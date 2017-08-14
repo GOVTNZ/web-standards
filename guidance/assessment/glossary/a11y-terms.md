@@ -8,15 +8,10 @@ high-stakes content
 : critical content that people need. Examples include content about:
 
 	* civil emergencies and responses
-
 	* entitlement or access to benefits, education, consumer or other community protections, passports, or visas
-
 	* rights in criminal and civil proceedings
-
 	* central government elections or referenda
-
 	* tax obligations and rebates
-
 	* general health information, specific health advice, health and safety in employment.
 
 viewport
