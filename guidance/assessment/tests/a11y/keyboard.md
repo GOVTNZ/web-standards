@@ -42,7 +42,7 @@ You need to test keyboard use for any type of content on your page. Not all the 
 
     <h5>Links and buttons</h5>
 
-3. Use the <kbd>Tab</kbd> key to move to every link and press <kbd>Enter</kbd>.  If the link doesn't work with the <kbd>Enter</kbd> key, record a failure of keyboard functionality, noting the reason in the report. Use the browser's back button (<kbd>Alt</kbd>+<kbd>Left arrow</kbd> on a Windows keyboard, or <kbd>Command</kbd>+<kbd>[</kbd> on a Mac keyboard) to go back to the previous page. 
+3. Use the <kbd>Tab</kbd> key to move to every link and press <kbd>Enter</kbd>.  If the link doesn't work with the <kbd>Enter</kbd> key, record a failure of keyboard functionality, noting the reason in the report. Use the browser's back button (<kbd>Alt</kbd>+<kbd>Left arrow</kbd> on a Windows keyboard, or <kbd>Cmd</kbd>+<kbd>[</kbd> on a Mac keyboard) to go back to the previous page. 
 
 4. Use the <kbd>Tab</kbd> key to move to each button and press the <kbd>Spacebar</kbd>. Check that the button performs the same action as when clicked with a mouse. If you can't activate the button with the <kbd>Spacebar</kbd>, record this as a failure of keyboard functionality.  
 
