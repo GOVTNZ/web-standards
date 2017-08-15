@@ -9,11 +9,11 @@
 
 The website's home page must include:
 
-* the name and/or logo of the New Zealand Government organisation primarily responsible for the website.
+* the name and/or logo of the New Zealand Government organisation primarily responsible for the website, and
 
 * a visible link to newzealand.govt.nz or www.govt.nz.
 
-If the website is a partnership between two or more organisations, government or non-government, it is recommended that each NZ Government organisation contributing to the website makes its participation clear by including its name and/or logo on the website's home page.
+If the website is a partnership between 2 or more organisations, government or non-government, it is recommended that each NZ Government organisation contributing to the website makes its participation clear by including its name and/or logo on the website's home page.
 
 Consistent with the [All-of-Government Brand Policy and Guidelines](http://www.ssc.govt.nz/govt-brand), organisations should use an appropriate version of the all-of-government brand image for the link.
 
