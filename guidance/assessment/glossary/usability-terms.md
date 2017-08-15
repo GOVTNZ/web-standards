@@ -3,7 +3,9 @@ archived web page
 : A web page:
 
 	* whose main content is available for reference purposes but otherwise it is neither maintained nor updated
+	
 	* whose main content is clearly marked as archived, and
+	
 	* that includes accessible instructions on how a user can request an accessible version of its content.
 
 home page

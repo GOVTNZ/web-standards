@@ -24,15 +24,18 @@ Content images should be added using `<img>`. CSS, which is the presentation lay
 
 Background images inserted using CSS should only be used for decorative images because you can't yet put alt text on one. If they convey meaningful information they must have a text alternative near where the image appears. There are a number of ways to do this:
 
-- Add text but use CSS to position it offscreen. It isn't visible, but it is available to a screen reader user. 
-- Assign the element that has the CSS image a `role` of `img` (`role="img"`) and use an `aria-label` attribute for the alt text. 
+* Add text but use CSS to position it offscreen. It isn't visible, but it is available to a screen reader user. 
+
+* Assign the element that has the CSS image a `role` of `img` (`role="img"`) and use an `aria-label` attribute for the alt text. 
 
 ###### Finding CSS images
 
 Outline images using the Web Developer extension as shown in Step 1 of the How to test section. If you can't find an `<img>` element when you inspect the code for an image, it's probably been added as a background image using CSS.  The easiest way to confirm this is with the Web Developer extension. 
 
 1. Open the Web Developer extension and select 'Images' and 'Outline Background Images'.  This will add a visual border around each CSS background image on the page.  
+
 2. For each background image outlined on the page, inspect the code for the element that the CSS background image is attached to.
+
 3. Once you find it, look for the text alternative in the code. 
 
 ###### How to inspect code to find the CSS image
@@ -44,8 +47,11 @@ For example, the [Govt.nz website](https://www.govt.nz/) uses a CSS background i
 In this example, to inspect the code for the CSS image:
 
 1. Right-click on the image and inspect the code. The developer tools window opens and highlights an `<a>` element in the page. 
+
 2. Look in the Styles panel for something that says background or background-image with a `url(...)` in its value. It will usually be near the top. 
+
 3. The `<a>` element you're currently inspecting doesn't have a background image attached. Try inspecting its parent element, in this case the `<div>` containing the link. You'll see the `<div>` has a `background-image` property with a `url(...)` in the value, so you've found the right element. 
+
 4. That `<div>` contains a link, which you've already inspected. Inside that `<a>` element is a `<span>` containing text that matches the text in the logo image. That text may not be visible to sighted users, but it serves as the text alternative for the CSS background image. It also serves as the link text for the link. 
 
 </div>

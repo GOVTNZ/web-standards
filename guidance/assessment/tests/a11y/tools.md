@@ -3,8 +3,11 @@ Testing web content against the Web Accessibility Standard can be manual or auto
 There are tools you can use to help with manual testing. The tools we're using are:
 
 * Chrome's built-in developer tools — to inspect a web page's code 
+
 * Web Developer extension for Chrome — a semi-automated testing tool 
+
 * Chrome Device Mode — to simulate viewport sizes, and  
+
 * aXe extension for Chrome — the automated testing tool. 
 
 ### Developer tools
@@ -38,7 +41,9 @@ Once you've installed the extension, you can access it using the cog icon on the
 #### What you need to know
 
 * The area at the top is the menu. The Outline menu is shown. 
+
 * Any selected item will have a green tick next to it. 
+
 * To get rid of the pop up menu, just click in the page. 
 
 ### Chrome Device Mode
@@ -48,6 +53,7 @@ You'll be asked to run some tests at a few screen resolutions or viewports. Acce
 As well as testing your pages at your browser's normal desktop size, you also need to test at the following viewport sizes: 
 
 * 320 x 568px - the size of a small screen mobile phone like an iPhone 5
+
 * 768 x 1024px - roughly the size of a tablet like an iPad.
 
 If you don't see any changes in the page content or layout, enter 'no change' in the cell for tablet-size results.

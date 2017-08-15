@@ -49,8 +49,11 @@ You need to test keyboard use for any type of content on your page. Not all the 
     <h5>Popup boxes</h5>
 
 5. If a popup box (sometimes known as a modal dialog or lightbox) appears, check that you can: 
+    
     a. easily move around the box  
+    
     b. use everything in the box without using a mouse, and 
+    
     c. close the box by either hitting the <kbd>Esc</kbd> key, or navigating to and activating a close or cancel button. 
 
 6. If you can't do all these things with the keyboard alone, record a failure of keyboard functionality, noting the reason. 
@@ -62,24 +65,37 @@ You need to test keyboard use for any type of content on your page. Not all the 
 8. Check that you can use the keyboard to control things like videos, carousels, sliders. Where you can't, record a failure of keyboard functionality, noting the reason. 
 
     * If your page has an embedded video, can you: 
+        
         * get to the video with the <kbd>Tab</kbd> key? 
+        
         * use each control in the player using some combination of the <kbd>Enter</kbd> key, <kbd>Spacebar</kbd>, or the arrow keys?  
+        
         * use the <kbd>Tab</kbd> key to move past the video player and down to any focusable elements that follow it? 
 
     * If the page contains a carousel, can you: 
+        
         * use the keyboard to set focus to and activate each of its controls? 
+        
         * switch between its panels? 
 
     <h5>Forms</h5>
 
 9. Check that you can use the keyboard to complete a form. Where you can't, record a failure of keyboard functionality, noting the reason. If your page has a form, can you use the: 
+    
     * <kbd>Tab</kbd> key to get to each form field? 
+    
     * arrow keys in a group of radio buttons to change which radio button is selected? 
+    
     * <kbd>Spacebar</kbd> to check or uncheck a checkbox?  
+    
     * date picker/calendar widget by: 
+    
         * navigating the day, week, month and year using the <kbd>Tab</kbd> and/or arrow keys? 
+    
         * select a specific date with the <kbd>Enter</kbd> key or <kbd>Spacebar</kbd>? 
+    
     * up/down arrow keys to choose from drop-down options? 
+    
     * <kbd>Enter</kbd> key to submit the form? 
 
     <h5>Retest at other viewports</h5>

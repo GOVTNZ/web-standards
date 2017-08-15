@@ -13,8 +13,11 @@ A heading introduces or describes the content that follows it. It should also st
 As well as context, headings show a parent-child relationship between content elements on a page. The section you're reading now has a heading, 'What you should know about headings', and is a child of the section with the heading,'Test 2: Headings', which in turn is a child of 'Tests for each page'. Those parent-child relationships shown on the page must be faithfully mirrored in the hierarchy of `<h1>` to `<h6>` headings in the HTML markup. 
 
 Think about whether:
+
 * your content is structured logically
+
 * the content structure is reflected in a clear hierarchical heading order, and
+
 * that logical structure is accurately reflected in the hierarchy of headings in the markup. 
 
 Skipping heading levels, e.g. going from `<h1>` to `<h3>`, is not advised, but it is not a WCAG failure. A level 3 heading `<h3>` can be a subheading under a level 1 `<h1>` heading, because an `<h3>` is of a lower rank than `<h1>`. But the reverse, using an `<h2>` as a subheading to an `<h3>` is considered a failure: where an `<h2>` follows an `<h3>`, it means the previous block of content has stopped and the content hierarchy has risen a level. If that doesn't match how the content hierarchy is visually presented on the page, it's an accessibility failure.
@@ -26,9 +29,11 @@ Note: the heading that introduces the main content is usually the heading with t
 #### How to test
 
 1. If you have Device Mode on or the developer tools still open, close them.
+
 2. On the page you’re testing, go to the Web Developer extension and select 'Outline', then click:
 
 	* 'Show Element Tag Names', and
+
 	* 'Outline Headings'. This will add a border around anything marked up as a heading and will show which heading tag, e.g. `<h3>`, has been used.
 
 3. Record a failure, noting the reason, if content is outlined as a heading, but doesn't: 

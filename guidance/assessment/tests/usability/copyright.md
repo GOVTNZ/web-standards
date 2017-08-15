@@ -47,7 +47,7 @@ The website's licensing terms should align with New Zealand Government Open Acce
 
 	* sets out the licensing terms under which the website's material can be re-used by others. 
 
-Otherwise record a failure, note the cause in the comments field, and move onto the next test.
+	Otherwise record a failure, note the cause in the comments field, and move onto the next test.
 
 4. Review the website for third party copyright material. If the website has any, check that the General Copyright Statement (or a statement near each item) states:
 
