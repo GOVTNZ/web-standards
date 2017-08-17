@@ -22,7 +22,9 @@ Another way to open the developer tools is to right-click on any element in the 
 
 We recommend opening the developer tools either as a separate window or at the bottom of the screen. 
 
-If you're new to using developer tools, try them out before starting the tests. And be sure to attend one or more of the self-assessment clinics that will be offered and ask for a demo.
+If you're new to using developer tools, try them out before starting the tests. 
+
+**Note:** Also remember that you can always close the developer tools if at any point you don't need them. Especially if you have the developer tools loaded at the bottom or to the side of the current web page (as opposed to in a separate window), closing the developer tools allows you to see more of the web page at once, which can be helpful depending on the test you are doing. 
 
 ### Web Developer extension
 
@@ -48,7 +50,7 @@ Once you've installed the extension, you can access it using the cog icon on the
 
 ### Chrome Device Mode
 
-You'll be asked to run some tests at a few screen resolutions or viewports. Accessibility issues that only appear on smaller screens will get picked up this way.
+You'll be asked to run some tests at a few screen resolutions or viewport sizes. Accessibility issues that only appear on smaller screens will get picked up this way.
 
 As well as testing your pages at your browser's normal desktop size, you also need to test at the following viewport sizes: 
 
@@ -56,7 +58,7 @@ As well as testing your pages at your browser's normal desktop size, you also ne
 
 * 768 x 1024px - roughly the size of a tablet like an iPad.
 
-If you don't see any changes in the page content or layout, enter 'no change' in the cell for tablet-size results.
+If you don't see any changes in the page content or layout, record 'no change' for that viewport size.
 
 To simulate a mobile or tablet experience on a desktop computer, you could resize your browser to approximately the size of a tablet or a smartphone. But it's easier to use built-in tools like Chrome's Device Mode to help with this. 
 
@@ -85,6 +87,8 @@ To use the Device Mode in Chrome:
 	2. Choose the device size you need. 
 		
 </div>
+
+**Note:** Chrome's Device Mode is very useful, but can be confusing to look at. Remember to turn off Device Mode when not using it to avoid any confusion. 
 
 ### aXe automated testing tool
 
