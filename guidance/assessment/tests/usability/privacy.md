@@ -7,27 +7,29 @@
 
 #### What are the privacy requirements?
 
-Each website must have a privacy statement ("Privacy Statement"). The home page must include a visible link, called "Privacy policy" or something similarly unambiguous, to the Privacy Statement.
+Each website must have a privacy statement ("Privacy Statement"). 
 
-The Privacy Statement needs to include several bits of information:
+The home page must have a visible link, called "Privacy policy" or something similarly unambiguous, to the Privacy Statement.
 
-* the information and website that the privacy statement applies to (e.g. "This privacy notice applies to personal information collected on [the organisation's] website: ministry.govt.nz");
+The Privacy Statement needs to include the following information:
 
-* how and where on the site a visitor's personal information is collected;
+* the information and website that the Privacy Statement applies to (e.g. "This privacy notice applies to personal information collected on [the organisation's] website: ministry.govt.nz")
 
-* the organisations and/or third parties that keep the information;
+* how and where on the site a visitor's personal information is collected
 
-* if a user has a choice in whether or not such information is collected;
+* the organisations and/or third parties that keep the information
 
-* how collected personal information may be used by the organisation;
+* if a user has a choice in whether or not such information is collected
 
-* the circumstances under which the information may be disclosed to others;
+* how collected personal information may be used by the organisation
 
-* what statistical information (including users' IP addresses) is collected and how it is used;
+* the circumstances under which the information may be disclosed to others
 
-* if cookies are used, a statement that this is so, and a brief description of what the cookies are used for;
+* what statistical information (including users' IP addresses) is collected and how it is used
 
-* what rights users have to request access to or to correct the personal information that is being held by the organisation; and,
+* if cookies are used, a statement that this is so, and a brief description of what the cookies are used for
+
+* what rights users have to request access to or to correct the personal information that is being held by the organisation, and
 
 * the contact details for making such requests.
 
@@ -35,9 +37,9 @@ The Privacy Statement needs to include several bits of information:
 
 #### How to test
 
-1. Check that a visible link to a "Privacy Statement" is present on the home page, and that it is clear from the link's text that its target is the Privacy Statement for the Website. If there is such a link, skip to step 3. Otherwise, record a failure, noting the reason.
+1. Check that a visible link to a "Privacy Statement" is present on the home page, and that it is clear from the link's text that its target is the Privacy Statement for the website. If there is such a link, skip to step 3. Otherwise, record a failure, noting the reason.
 
-2. Review the website. Check that the website includes a link to a web page that provides a statement about the website's collection and management of personal or private information. Note: This check may require some familiarity with the Website. If the site doesn't link to such a page, record a failure, noting the reasson, and move on to the next test.
+2. Review the website. Check that the website includes a link to a web page that provides a statement about the website's collection and management of personal or private information. Note: This check may require some familiarity with the website. If the site doesn't link to such a page, record a failure, noting the reasson, and move on to the next test.
 
 3. Check that the Privacy Statement clearly indicates all of the following, and otherwise record a failure, noting the reason:
 

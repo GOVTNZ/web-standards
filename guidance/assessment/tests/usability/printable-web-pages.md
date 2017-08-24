@@ -12,13 +12,9 @@ Each web page's main content must be printable on standard sheets of paper.
 It is recommended, but not required, that the printed content leave out the following items: 
 
 * primary content navigation
-
 * secondary content navigation
-
 * thematic or decorative banner
-
 * breadcrumbs
-
 * search form. 
 
 It is also recommended, but not required, that text content print by default as black text on a white background. For a number of reasons, the legibility of coloured text can degrade when printed.
@@ -27,9 +23,9 @@ It is also recommended, but not required, that text content print by default as 
 
 #### How to test
 
-1. Use the browser's print preview functionality, or actually print the page.
+1. Use the browser's print preview functionality, or print the page.
 
-2. Check that the web page's core information fits on 1 or more standard sheets of A4 paper, in either portrait or landscape. If it doesn't, record a failure, note the cause in the comments field and move to the next test.
+2. Check that the web page's core information fits on 1 or more standard sheets of A4 paper, in either portrait or landscape. If it doesn't, record a failure, noting the reason.
 
 3. **_[Optional]_** See if the printed version of the web page leaves out the following items:
 
@@ -43,6 +39,6 @@ It is also recommended, but not required, that text content print by default as 
 
 	* search form.
 
-	If these are on the printed copy of the page, record a failure, note the cause in the comments field and move to the next test.
+	If these are on the printed copy of the page, record a failure, noting the reason.
 
-4. **_[Optional]_** Try to print the page in colour, using the printer's settings. If the page's text content does not print out in black and white by default, record a failure, and note the cause in the comments field.
+4. **_[Optional]_** Try to print the page in colour, using the printer's settings. If the page's text content does not print out in black and white by default, record a failure, and noting the reason.
