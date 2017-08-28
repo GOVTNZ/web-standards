@@ -1,3 +1,5 @@
+**Consequence of failure:** Failing this requirement means some people are denied contextual information which helps them understand how content is structured on the page.
+
 **Related WCAG 2.0 success criteria:** [1.3.1 Information and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html).
 
 <div class="details" markdown="1">
@@ -41,3 +43,5 @@ Note: the heading that introduces the main content is usually the heading with t
 3. If content looks like and acts like a heading, but isn't outlined as a heading, inspect its code to see if the heading is wrapped in a basic element like a `<div>` or `<p>` with an ARIA `role="heading"` and an `aria-level` attribute to show what level it is. For example, `<p role="heading" aria-level="1">About Us</p>`. If it isn't, record a failure, noting the reason. 
 
 4. Check each heading to make sure the heading level is the appropriate given its position in the page's content hierarchy. Otherwise, record a failure, noting the reason. 
+
+5. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport. 
