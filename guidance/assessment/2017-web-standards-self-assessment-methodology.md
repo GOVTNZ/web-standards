@@ -133,7 +133,7 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 <div class="details test" markdown="1">
 
 ### Test 2: Headings
-{% include_relative tests/a11y/headings.md %}
+{% include_relative tests/a11y/headings-for-methodology.md %}
 
 </div>
 
@@ -168,7 +168,7 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 <div class="details test" markdown="1">
 
 ### Test 7: Captions and transcripts
-{% include_relative tests/a11y/captions-transcripts.md %}
+{% include_relative tests/a11y/captions-transcripts-for-methodology.md %}
 
 </div>
 
