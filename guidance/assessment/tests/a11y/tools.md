@@ -30,9 +30,11 @@ If you're new to using developer tools, try them out before starting the tests.
 
 The Web Developer extension for Chrome has various features to help simplify accessibility testing. We'll use it to speed up checking headings, lists and image alt text. But it's well worth looking at the other things it has to offer.
 
-#### Get the extension
+#### Install the extension
 
-[Download the Chrome extension](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm).
+1. Open Chrome.
+
+2. [Download the Chrome extension](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm).
 
 #### Use the extension
 

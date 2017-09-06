@@ -56,10 +56,6 @@ In this example, to inspect the code for the CSS image:
 
 </div>
 
-<div class="ed" markdown="1">
-Need examples!
-</div>
-
 </div>
 
 #### How to test

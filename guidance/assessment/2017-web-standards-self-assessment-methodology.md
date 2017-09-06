@@ -64,14 +64,13 @@ If you're doing the 2017 Web Standard Self-Assessments, you need:
 
 * to know your website well enough to pick pages based on their content
 
-* Chrome with the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) and [aXe](
-https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) extensions installed
+* Chrome with the Web Developer and aXe extensions installed
 
 * another browser (Internet Explorer or Firefox) for testing keyboard use
 
 * the [2017 Web Standards Self-Assessment results spreadsheet (XLSX 25KB)](https://govtnz.github.io/web-standards/guidance/assessment/2017-ws-self-assessment-results.xlsx).
 
-We'll be holding workshops to demonstrate the various testing techniques. Come along if you have questions. Someone will be there to answer any testing questions you have. If you're not sure how to use the software, bring a laptop with the software installed. We can show you how to use it and test your web pages.
+Instructions for installing and using the extensions are in the Tools you need for testing section. If you want some pointers or have any questions, we'll be holding workshops to demonstrate the various testing techniques. 
 
 Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz).
 
@@ -81,31 +80,26 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 
 ## 3. How to pick pages for testing
 
-1. If your agency only runs one or two websites, skip to step 3. 
+1. If your agency only runs 1 or 2 websites, skip to step 3. 
 
-2. Determine the traffic to your agency's busiest sites over the last 12 months. Identify the 3 most visited sites from your analytics. You will select pages from these 3 sites. 
+2. Determine the traffic to your agency's busiest sites over the last 12 months. Identify the 3 most visited sites from your analytics. You need to select 20 pages in total from across these 3 sites. 
 
-3. For each site to be tested, enter the URL of the home page and the contact page in the assessment spreadsheet in column A of the ‘Manual tests' worksheet.
+3. For each site to be tested, enter the URL of each home page and contact page in the assessment spreadsheet in the URL column of the ‘Manual tests' worksheet.
 
 4. Use your knowledge of the sites to nominate pages that you know have one or more of the following in their content:     
 
    * lists (ordered and/or unordered)
-
    * tables or information presented in HTML tables
-
    * forms and/or widgets (such as date pickers, calculators etc)
-
-   * images (try to include a few containing diagrams, flowcharts or graphs)
-
+   * images
    * video.
 
     For each of these content types, aim to identify at least a couple of pages with that type of content. It may help to use Google to find content, using a search like this:
 
-   * site:your-domain-name.govt.nz graph
-
+   * site:your-domain-name.govt.nz table
    * site:your-domain-name.govt.nz video
 
-5. Make a list of pages to be tested (20 in total) from the most visited pages on your site/s, favouring the most visited site (e.g. if you need 7 more pages from across 3 sites, you might take 4 pages from the busiest site, 2 from the second and 2 from the third, or 3-2-2 — use your judgement on this). 
+5. Make a list of pages to be tested (20 in total) from the most visited pages on your site/s, favouring the most visited site. For example if you're assessing 3 sites, you have 6 pages for testing already (3 home pages and 3 contact pages). You'd need 14 more pages from across the 3 sites. So you might take 6 pages from the busiest site, 4 from the second and 4 from the third, or 5-5-4 — use your judgement on this. 
 
 6. You're now ready to begin testing these 20 pages.
 
@@ -224,14 +218,7 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 
 ## 7. Reporting back
 
-<div class="ed">
-Check this with RM for consideration in agency ICT maturity assessment.
-</div>
-
 ### Consider your risk
-
-After you've completed the Self-Assessment spreadsheet, identify the tests that had the most failures (row 66 of the results spreadsheet). In reviewing those, refer back to the 'Consequence of failure' section for each test and evaluate what that means for the users of your web page or website. Consider what events might arise as a result of the failure, and what impact those events could have on your agency. Consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
-
 After you've completed the Self-Assessment spreadsheet, identify the tests that had the most failures (row 66 of the 'Manual tests' workbook in the results spreadsheet). In reviewing those, refer back to the 'Consequence of failure' section of each corresponding tests and evaluate what that means for the users of your web page or website. Consider what event(s) might arise as a result, and what impact those events could have on your agency. Consider what risk your agency is exposed to as a result of those impacts. Read more about [Web Standards risk assessment](https://webtoolkit.govt.nz/guidance/testing-and-assessment/web-standards-risk-assessment/). 
 
 * How would you accommodate individuals or groups impacted by those failures, if you were required to? 
@@ -255,13 +242,13 @@ The Web Standards team at the Department of Internal Affairs (DIA) can help Publ
 
 ### Report your plans
 
-As of 01 July 2017, all publicly available web pages owned by Public Service departments and Non-Public Service departments in the State sector are expected to fully meet the Web Accessibility and Web Usability Standards. Where these standards are not met, agencies are asked to submit a plan for managing any areas of non-conformance.
+As of 01 July 2017, all publicly available web pages owned by Public Service departments and Non-Public Service departments in the State sector are expected to fully meet the Web Accessibility and Web Usability Standards. Where these standards are not met, agencies are asked to submit a plan to the Government Chief Information Officer for managing any areas of non-conformance.
 
 Based on your self-assessment results and review, what plans does your agency's Chief Information Officer or similar have for addressing risks and opportunities, and for improving your agency's web presence with regard to the Web Standards?
 
 If your agency undertook any activities as a result of the 2014 Web Standards Self-Assessments, we are also interested in learning about those, and the impact they have had.
 
-Attach these plans with your Self-Assessment results spreadsheet and return them to [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz).
+Attach these plans with your Self-Assessment results spreadsheet and return them to the Government Chief Information Officer at [web.standards@dia.govt.nz](mailto:web.standards@dia.govt.nz).
 
 </div>
 

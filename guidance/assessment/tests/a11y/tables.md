@@ -46,37 +46,38 @@ For an example of a simple table using `<th>` and `scope` attributes for both co
 
 ###### Complex tables
 
-<div class="ed" markdown="1">
-This section under review.
-</div>
-
 Complex tables have multiple levels of row or column headers. 
 
 ###### Example of a basic complex table
 <table>
-<thead>
+  <col>
+  <colgroup span="2"></colgroup>
+  <colgroup span="2"></colgroup>
   <tr>
-    <th scope="col">Destination</th>
-    <th>Name</th>
-    <th>Departure date</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <th rowspan="2">Vienna</th>
-    <td>Hilary Bell</td>
-    <td>4 October 2009</td>
+    <th rowspan="2">Kms travelled</th>
+    <th colspan="2" scope="colgroup">Hilary Bell</th>
+    <th colspan="2" scope="colgroup">Sarah Fisher</th>
   </tr>
   <tr>
-    <td>Nicola Chang</td>
-    <td>5 October 2009</td>
+    <th scope="col">2015</th>
+    <th scope="col">2016</th>
+    <th scope="col">2015</th>
+    <th scope="col">2016</th>
   </tr>
   <tr>
-    <th>Cairo</th>
-    <td>Sarah Fisher</td>
-    <td>7 October 2009</td>
+    <th scope="row">Air</th>
+    <td>226,212</td>
+    <td>75,404</td>
+    <td>301,616</td>
+    <td>131,957</td>
   </tr>
-  </tbody>
+  <tr>
+    <th scope="row">Road</th>
+    <td>31,552</td>
+    <td>11,832</td>
+    <td>10,744</td>
+    <td>55,2216</td>
+  </tr>
 </table>
 
 Straightforward complex tables may only need to use the `scope` attribute to clarify how the column or row header cells apply to the different columns and rows. 
@@ -115,8 +116,7 @@ You can also use the ARIA `rowheader` or `columnheader` role on the header cell'
 ``` 
 
 ###### Layout tables
-
-If the  table is a layout table, it must not include any of following HTML elements and attributes:
+Layout tables must not include any of following HTML elements and attributes:
 
 * `<th>`, `<thead>`, `<tfoot>` and `<caption>` elements 
 
@@ -154,11 +154,11 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 
 ##### Testing layout tables
 
-1. If it’s a layout table, record a failure, noting the reason, if the `<table>`  has any of the following: 
+1. If it’s a layout table record a failure, noting the reason, if the table has any of the following: 
 
 	* `<th>`, `<thead>`, `<tfoot>` and `<caption>` elements 
 
-	* a `summary` attribute on the `<table>` element 
+	* a `summary` attribute on the `<table>` element, or 
 
 	* `scope` or `headers` attributes on `<td>` elements. 
 
