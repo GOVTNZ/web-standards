@@ -184,30 +184,17 @@ Questions can also be submitted at any time to [web.standards@dia.govt.nz](mailt
 {% include_relative tests/usability/contact-information.md %}
 
 </div>
-<div class="details test" markdown="1">
-
-### 3. Copyright
-{% include_relative tests/usability/copyright.md %}
-
-</div>
 
 <div class="details test" markdown="1">
 
-### 4. Privacy
-{% include_relative tests/usability/privacy.md %}
-
-</div>
-
-<div class="details test" markdown="1">
-
-### 5. Links to non-HTML files
+### 3. Links to non-HTML files
 {% include_relative tests/usability/links-to-non-html-files.md %}
 
 </div>
 
 <div class="details test" markdown="1">
 
-### 6. Printable web pages
+### 4. Printable web pages
 {% include_relative tests/usability/printable-web-pages.md %}
 
 </div>
