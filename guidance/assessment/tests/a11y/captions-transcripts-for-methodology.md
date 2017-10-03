@@ -64,9 +64,11 @@ A transcript allows a:
 
 1. Look for any video or audio content on the page.
 
-2. Play the content.
+2. If there is no video or audio content on this page, leave the Pass/Fail column for Captions and transcripts blank and put 'No video' in the Notes column next to it.
 
-3. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport.
+3. Play the content.
+
+4. Remember to resize your browser window and test at the other viewport sizes. If there is no change to page content or layout, enter 'no change' in the results and don't test for that viewport.
 
 ##### Testing captions
 

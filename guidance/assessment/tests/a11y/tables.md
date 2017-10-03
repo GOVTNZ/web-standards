@@ -128,11 +128,13 @@ If the table has any of these, the `<table>` element must have a `role` attribut
 
 #### How to test
 
-1. Scan the page you’re testing for tables. 
+1. Scan the page you’re testing for tables.
 
-2. For each table, decide if it’s a data table or a layout table. 
+2. If there are no tables on this page, leave the Pass/Fail column for Tables blank and put 'No tables' in the Notes column next to it.
 
-3. If it's a data table, follow the steps under Testing data tables. If it's a layout table, follow the steps under Testing layout tables. 
+3. For each table, decide if it’s a data table or a layout table. 
+
+4. If it's a data table, follow the steps under Testing data tables. If it's a layout table, follow the steps under Testing layout tables. 
 
 ##### Testing data tables
 
