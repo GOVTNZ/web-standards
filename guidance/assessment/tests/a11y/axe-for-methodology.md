@@ -16,8 +16,10 @@ You need to run the aXe tool for every page you test. You also need to run it fo
 
     ![Screenshot showing how to select the list of issues](https://govtnz.github.io/web-standards/assets/img/aXe.jpg)
 
-6. Copy the results and paste them into the appropriate single cell for desktop-size results in the Self-Assessment results spreadsheet. 
+6. Copy the results
 
-7. Resize your browser window to simulate a tablet (768x1024px). If there is no change in the page content or layout, choose 'no change' in the cell for tablet-size results. Otherwise, run 'Analyze' again, and copy and paste those results in the appropriate cell.
+7. Go to the appropriate cell for desktop-size results in the Self-Assessment results spreadsheet. **Double click** in the cell to bring up the flashing cursor. Paste the results here (Ctrl+V) to contain all the results in one cell.
 
-8. Finally, resize to simulate a smartphone (320x568px). If there is no change in the page content or layout, choose 'no change' in the cell for phone-size results. Otherwise, run 'Analyze' again, and copy and paste those results in the appropriate cell
+8. Resize your browser window to simulate a tablet (768x1024px). If there is no change in the page content or layout, choose 'no change' in the cell for tablet-size results. Otherwise, run 'Analyze' again, and copy and paste those results in the appropriate cell.
+
+9. Finally, resize to simulate a smartphone (320x568px). If there is no change in the page content or layout, choose 'no change' in the cell for phone-size results. Otherwise, run 'Analyze' again, and copy and paste those results in the appropriate cell
