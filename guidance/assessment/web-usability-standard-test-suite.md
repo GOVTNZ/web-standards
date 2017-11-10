@@ -1,7 +1,7 @@
 ---
 layout: test-suite 
 title: Web Usability Standard Test Suite
-draft: true 
+draft: false 
 ---
 
 <div class="details top" markdown="1">
