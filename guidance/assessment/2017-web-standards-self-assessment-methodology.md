@@ -1,7 +1,7 @@
 ---
 layout: assessment-methodology 
 title: 2017 Web Standards Self-Assessment Methodology 
-draft: true 
+draft: false 
 ---
 
 <div class="details top" markdown="1">
