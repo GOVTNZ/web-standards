@@ -42,6 +42,17 @@
   },
   "license": "MIT",
   "dependencies": {
-    "morgan": "^1.9.1"
+    "cli": "^1.0.1",
+    "cryptiles": "^4.1.3",
+    "debug": "^4.1.1",
+    "extend": "^3.0.2",
+    "fresh": "^0.5.2",
+    "hoek": "^6.1.3",
+    "lodash": "^4.17.11",
+    "mime": "^2.4.2",
+    "morgan": "^1.9.1",
+    "parsejson": "0.0.3",
+    "sshpk": "^1.16.1",
+    "tough-cookie": "^3.0.1"
   }
 }
