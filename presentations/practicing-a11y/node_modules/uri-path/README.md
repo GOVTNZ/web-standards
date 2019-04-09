@@ -20,7 +20,7 @@ var URIpath = require('uri-path');
 URIpath('../abc/@#$%¨&()[]{}-_=+ß/môòñ 月 قمر');
 // -> '../abc/%40%23%24%25%C2%A8%26()%5B%5D%7B%7D-_%3D%2B%C3%9F/m%C3%B4%C3%B2%C3%B1%20%E6%9C%88%20%D9%82%D9%85%D8%B1'
 
-// Also supports Windows backslash paths
+// Also supports paths with Windows directory separators
 URIpath('a\\b\\c');
 // -> 'a/b/c'
 ```

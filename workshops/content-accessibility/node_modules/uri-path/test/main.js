@@ -1,4 +1,6 @@
-var URIpath = require('../');
+'use strict';
+
+var URIpath = require('..');
 require('should');
 
 describe('uri-path', function() {
