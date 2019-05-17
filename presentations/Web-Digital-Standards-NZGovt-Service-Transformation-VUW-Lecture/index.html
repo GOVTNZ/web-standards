@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en-NZ">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Web and Digital Standards in NZ Government service transformation</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black-custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script src="js/jquery-1.10.2.min.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1><img style="display: block; margin: 0 auto 40px;" width="400" src="img/All-of-govt_NZ_Gov.jpg" alt="New Zealand Government"> <span class="yellow">Web and Digital Standards in NZ Government service transformation</span></h1>
+					<p>Jason Kiss<br>Principal Advisor Accessibility</p>
+					<div style="margin-top: 50px;">
+						<img src="img/dia-logo.png" width="400" alt="Department of Internal Affairs - Te Tari Taiwhenua">
+					</div>
+				</section>
+				<section>
+					<h2>Outline</h2>
+					<ol class="yellow">
+						<li>Context</li>
+						<li>Standards in NZ Govt</li>
+						<li>Digital Service Design Standard (DSDS)</li>
+						<li>Web Accessibility Standard</li>
+					</ol>					
+				</section>
+				<section>
+					<h2>Context</h2>
+					<ul class="yellow">
+						<li>EGOV 501: ICT-enabled service transformation</li>
+						<li>What does this mean for government?</li>
+					</ul>
+					<p class="green fragment big3"><b class="yellow">One thing it means:</b><br> Moving all services online (digital) where possible</p>
+				</section>
+				<section>
+					<h2>But why go online?</h2>
+					<ul class="yellow fragment big3">
+						<li>maximise reach</li>
+						<li>increase availability</li>
+						<li>reduce cost</li>
+					</ul>
+				</section>
+				<section>
+					<h2>How to ensure maximum reach and availability?</h2>
+					<p class="fragment yellow big">Standards!</p>
+				</section>
+				<section>
+					<h2>What is a standard, <br>and what is it good for?</h2>
+					<blockquote style="text-align: right;" class="fragment"><p class="yellow" style="text-align: left;">In essence, a standard is an agreed way of doing something.</p><p>—<cite style="display: inline;"><a href="https://www.bsigroup.com/en-GB/standards/Information-about-standards/what-is-a-standard/">BSI</a></cite></p></blockquote>
+				</section>
+				<section>
+					<figure class="center">
+						<img src="img/railway-track.jpg" alt="Photo of railway track.">
+						<cite><a href="https://www.publicdomainpictures.net/en/view-image.php?image=291248">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<figure class="center">
+						<img src="img/containers.jpg" alt="Photo of shipping containers." width="460">
+						<cite><a href="https://pxhere.com/en/photo/1114971">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<h2>What does DIA mean by 'standard'?</h2>
+					<p class="yellow big2">Good question!</p>
+				</section>
+				<section>
+					<h2>GEA-NZ</h2>
+					<p class="yellow big3"><a href="https://www.ict.govt.nz/guidance-and-resources/architecture/government-enterprise-architecture-for-new-zealand-framework/">Government Enterprise Architecture for NZ</a></p>
+					<p class="green big3">A framework to support ICT-enabled transformation across government.</p>
+				</section>
+				<section>
+					<h2><a href="https://www.ict.govt.nz/guidance-and-resources/standards-compliance/government-enterprise-architecture-for-new-zealand-standards-reference/">GEA-NZ Standards Reference</a></h2>
+					<p class="yellow big3">Catalogue of ICT standards used across the NZ Government</p>
+				</section>
+				<section>
+					<h2><a href="https://www.ict.govt.nz/guidance-and-resources/standards-compliance/government-enterprise-architecture-for-new-zealand-standards-reference/standards-principles/">GEA-NZ Standards Principles</a></h2>
+					<ol class="yellow">
+						<li>User-centric</li>
+						<li>Open and Transparent</li>
+						<li>Flexible</li>
+						<li>Vendor independent</li>
+						<li>Pragmatic</li>
+						<li>Well informed</li>
+						<li>Standards compliance</li>
+						<li>International 1st</li>
+					</ol>	
+				</section>
+				<section>
+					<h2>IT Standards</h2>
+					<ul class="yellow">
+						<li>software</li>
+						<li>hardware</li>
+						<li>networking</li>
+						<li>security</li>
+						<li>information management</li>
+						<li>privacy</li>
+						<li>copyright</li>
+						<li>licencing</li>
+						<li>more...</li>
+					</ul>
+				</section>
+				<section>
+					<h2>And to maximise reach and usability?</h2>
+					<ul class="fragment big3 ">
+						<li><a href="https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard/">Digital Service Design Standard (DSDS)</a></li>
+						<li><a href="https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/">NZ Government Web Standards</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>DSDS Purpose</h2>
+					<p class="green">To help government:</p>
+					<ul class="yellow">
+						<li>deliver services that are easily accessible, integrated, inclusive and trusted by all New Zealanders</li>
+						<li>become more responsive, open, citizen-centric and user-focused.</li>
+					</ul>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>
+					<p class="yellow big2">1. Identify your users and understand their ongoing needs</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>
+					<p class="yellow big2">2. Be clear about what you are trying to change and why</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">3. Integrate security and privacy proportionate to risk from the outset</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">4. Be inclusive, and provide ethical and equitable services</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">5. Design and resource for the full lifetime of the service</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">6. Create and empower an interdisciplinary team</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">7. Work in the open</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">8. Collaborate widely, reuse and enable reuse by others</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">9. Design for our unique constitutional and cultural environment</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">10. Use digital technologies to enhance service delivery</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">11. Be a good data and information steward</p>
+				</section>
+				<section>
+					<h2>DSDS Principles</h2>		
+					<p class="yellow big2">12. Be transparent and accountable to the public</p>
+				</section>
+
+				<section>
+					<h2>Developing the DSDS</h2>
+					<ul class="yellow">
+						<li>early 2018</li>
+						<li>interest groups, stakeholders, govt web community</li>
+						<li>open discussion forum — <a href="https://discuss.digital.govt.nz/">discuss.digital.govt.nz</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>DSDS Approach</h2>
+					<ul class="yellow">
+						<li>‘umbrella’ approach that does not 're-invent the wheel'</li>
+						<li>collects existing local guidance and directives</li>
+						<li>borrows from international examples and best practice</li>
+					</ul>
+				</section>
+				<section>
+					<h2>DSDS Assessment Model?</h2>
+					<p class="big3 green">4 possible options:</p>
+					<ol class="yellow">
+						<li>Discretionary, informative resource</li>
+						<li>Discretionary standard, self-assessment, self-reporting</li>
+						<li>Discretionary standard, self-assessment, and centralised reporting</li>
+						<li>Mandated standard with centralised governance model</li>
+					</ol>
+					<aside class="notes"><p>We looked at what other jurisdictions already had or were developing, their approach for assessment, the differences, e.g. lack of central mandate.</p></aside>
+				</section>
+				<section>
+ 					<h2>DSDS Assessment Model?</h2>
+ 					<ul class="green">
+ 						<li>Due end of June 2019!</li>
+ 						<li>Open Government Partnership (OGP) obligation</li>
+ 						<li>Current engagement with Dave Moskovitz</li>
+ 					</ul>
+				</section>
+				<section>
+					<h2>DSDS Future?</h2>
+					<ul class="yellow">
+						<li>Living standard</li>
+						<li>To be reviewed in December</li>
+						<li>Opportunity to review, revise (and even rename!)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Any questions about the DSDS?</h2>
+				</section>
+				<section>
+					<h2>NZ Govt Web Standards</h2>
+					<ul class="yellow big2">
+						<li>Web Usability Standard</li>
+						<li>Web Accessibility Standard</li>
+					</ul>
+					<p class="green big2">Mandated by Cabinet, in 2003!</p>
+					<aside class="notes">The Web Usability Standard includes a number of requirements to meet various policy obligations, e.g. privacy, copyright; and some content requirements, e.g. home page link to Govt.nz. However, we're just going to focus on the Web Accessibility Standard.</aside>
+				</section>
+				<section>
+					<figure>
+						<img src="img/ramp-fail.jpg" alt="" width="400">
+						<cite><a href="https://www.pinterest.com/pin/395120567277695115/">Image source</a></cite>
+					</figure>
+					<div class="right middle">
+						<h2>Web accessibility</h2>
+						<p>What is it?</p>
+					</div>
+					<aside class="notes">
+						<p>Accessibility is typically understood to be about ensuring that people with disabilities and special devices or assistive technologies can access your establishment or website.</p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Percentage of people with disability, 2013</h2>
+					<figure>
+						<table>
+							<thead>
+								<tr>
+									<th>0–14 yrs</th>
+									<th>15–44 yrs</th>
+									<th>45–64 yrs</th>
+									<th>65+ yrs</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>11%</td>
+									<td>16%</td>
+									<td>28%</td>
+									<td>59%</td>
+									<td>24%</td>
+								</tr>
+							</tbody>
+						</table>
+						<cite class="align-center" style="top: 100%; width: 100%; font-size: 0.6em;">2013 Disability Survey, Statistics NZ</cite>
+					</figure>
+					<div class="align-center" style="max-width: 460px; margin: 100px auto 0;">
+						<p class="yellow align-left">In 25 years, between 22–25% of New Zealanders will be 65+ years old or older.</p>
+						<cite class="small align-right"><i><a href="http://www.stats.govt.nz/browse_for_stats/population/estimates_and_projections/NationalPopulationProjections_HOTP2014.aspx">National Population Projections: 2014(base)–2068<br>Statistics NZ</a></i></cite>						
+					</div>
+					<aside class="notes">
+						<p>In New Zealand, based on the 2013 Disability Survey, 24% of New Zealanders have one or more disability. Note the high percentage of disability among those who are 65 years of age and older.</p>
+						<p>In 2014, 14% of New Zealanders were 65 or over. This number could almost double in the next 25 years.</p>
+						<p>Disability or some kind of impairment will be, for many or most of us, just a natural part of ageing, so while you or I might not see any personal connection to the need for accessibility at this point in our lives, do remember that more likely than not, we will as we get older. Be selfish about it!</p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Assistive technologies</h2>
+					<aside class="notes">
+						<p>People with disabilities access the web using all sorts of different technologies to assist their interaction with computers.</p>
+					</aside>
+				</section>
+				<section>
+					<h2>Keyboards</h2>
+					<figure class="center">
+						<img src="img/kbd.jpg" alt="Close up of left hand on a Mac keyboard.">
+						<cite><a href="https://www.flickr.com/photos/matsuyuki/6902212467">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<h2>Large print keyboards</h2>
+					<figure class="center">
+						<img src="img/kbd2.jpg" alt="Large print keyboard with yellow keys on black body.">
+						<cite><a href="http://www.aisquared.com/products/large-print-bluetooth-mini-keyboards">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<h2>One-handed keyboards</h2>
+					<figure class="center">
+						<img src="img/kbd3.jpg" alt="Maltron one-handed keyboard for the right hand.">
+						<cite><a href="https://www.enablemart.com/maltron-one-handed-keyboards-right-and-left-hand">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<h2>Mice and trackballs</h2>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/trackball.jpg" alt="Large Kensington trackball." width="300">
+							<cite><a href="http://www.ergovancouver.net/mouse_trackball_kensington_slimblade.htm">Image source</a></cite>
+						</figure>
+					</div>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/minicute.jpg" alt="EZ Minicute vertical mouse." width="300">
+							<cite><a href="http://www.m4gic.net/2013/04/minicute-ezmouse-test-review-maus/">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Headwands</h2>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/headwand.jpg" alt="Straight headwand strapped to a styrofoam head for display.">
+							<cite><a href="https://syeqahz.wordpress.com/2010/02/16/hardware-characteristics-and-performance-of-peripherals/">Image source</a></cite>
+						</figure>
+						<figure>
+							<img src="img/headwand2.jpg" alt="Articulated headwand with head brace.">
+							<cite><a href="http://t3h1onlineb.wikispaces.com/Wands+and+Sticks">Image source</a></cite>
+						</figure>
+					</div>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/headwand3.jpg" alt="Man with curved headwand typing at keyboard in front of monitor.">
+							<cite><a href="http://t3h1onlineb.wikispaces.com/Wands+and+Sticks">Image source</a></cite>
+						</figure>
+						<figure>
+							<img src="img/headwand4.jpg" alt="Man with short headwand using onscreen keyboard on iPad.">
+							<cite><a href="https://www.technibble.com/interview-with-computer-repair-inspiration-kevin-burg/">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Mouthsticks</h2>
+					<div>
+						<figure class="center">
+							<img height="300" width="510" src="img/mouthstick2.jpg" alt="Mouthstick being used to type on iPad.">
+							<cite><a href="http://www.mundstab.de/">Image source</a></cite>
+						</figure>
+					</div>
+					<div>
+						<figure style="display: inline-block;">
+							<img src="img/mouthstick.jpg" alt="Man using short mouthstick on special keyboard for mouthsticks.">
+							<cite><a href="http://www.livingmadeeasy.org.uk/communication/alternative-computer-inputs-_-head-operated-p/head-mouth-stick-keboard-0110707-1326-information.htm">Image source</a></cite>
+						</figure>
+						<figure style="display: inline-block;">
+							<img src="img/mouthstick3.jpg" alt="4 mouthsticks.">
+							<cite><a href="http://t3h1onlineb.wikispaces.com/Wands+and+Sticks">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Button switches</h2>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/moon-switch.jpg" alt="Red AMDI moon switch.">
+							<cite><a href="http://www.perkinsproducts.org/store/en/learning-disability/1334-amdi-moon-switch.html">Image source</a></cite>
+						</figure>
+					</div>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/mount-switch.jpg" alt="Blue AMDI moon switch on articultated mounting brace.">
+							<cite><a href="http://www.amdi.net/index.php?route=product/product&amp;product_id=498">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Sip and puff switches</h2>
+					<div>
+						<figure class="center">
+							<img src="img/sip-and-puff.jpg" alt="Man using sip and puff switch with onscreen keyboard.">
+							<cite><a href="https://matty713.wordpress.com/2013/09/12/sip-and-puff-device-2/">Image source</a></cite>
+						</figure>
+					</div>
+					<figure class="center">
+						<img src="img/sip-and-puff2.jpg" alt="Girl with sip and puff switch.">
+						<cite><a href="http://orin.com/">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<h2>Eye blink switch</h2>
+					<div>
+						<figure class="center">
+							<img src="img/eye-blink-switch.gif" alt="Close up of fibre optic eye blink switch next to woman's eye.">
+							<cite><a href="https://www.specialneedscomputers.ca/index.php?l=product_detail&amp;p=222">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Proximity switch</h2>
+					<div>
+						<figure class="center">
+							<img src="img/proximity-switch.jpg" alt="Hand hovering over an Ablenet Candy Corn proximitiy switch." width="500">
+							<cite><a href="http://www.ergocanada.com/detailed_specification_pages/ablenet_candy_corn_proximity_switch.html">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Switch scanning</h2>
+					<div>
+						<figure class="center">
+							<img src="img/switch-scanning.gif" alt="Animated gif of scanning software selecting letter on SwithXS onscreen keyboard.">
+							<cite><a href="http://www.orin.com/access/switchxs/">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Speech/voice recognition</h2>
+					<div class="center" style="display: inline-block;">
+						<figure style="margin-bottom: 0;">
+							<img src="img/dragon.jpg" alt="Dragon Naturally Speaking." width="250">
+							<cite><a href="http://assistivetechcaraiman.weebly.com/motor-aspects-for-writing.html">Image source</a></cite>
+						</figure>
+					</div>
+					<div>
+						<div style="display: inline-block;">
+						<figure style="margin-top: 0;">
+							<img src="img/cortana.png" alt="Cortana logo." width="250">
+							<cite><a href="https://twitter.com/cortanaquotes">Image source</a></cite>
+						</figure>
+					</div>
+					<div style="display: inline-block;">
+						<figure style="margin-top: 0;">
+							<img src="img/siri.png" alt="VoiceOver logo." width="250">
+							<cite><a href="http://www.icons101.com/icon/id_70095/setid_2194/iOS_7_by_dtafalonso/Siri">Image source</a></cite>
+						</figure>
+					</div>
+				</div>
+				</section>
+				<section>
+					<h2>Screen readers</h2>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/jaws.jpg" alt="JAWS for Windows banner image.">
+							<cite><a href="http://georgialibraries.org/glass/jaws/">Image source</a></cite>
+						</figure>
+					</div>
+		
+					<div style="display: inline-block;">
+						<figure>
+							<img height="200" width="200" src="img/nvda.png" alt="NVAccess logo.">
+							<cite><a href="http://www.nvaccess.org">Image source</a></cite>
+						</figure>
+					</div>
+					<div style="display: inline-block;">
+						<figure>
+							<img height="200" width="200" src="img/voiceover.png" alt="VoiceOver logo.">
+							<cite><a href="http://espirian.co.uk/speaking-text-on-your-mac/">Image source</a></cite>
+						</figure>
+					</div>
+					<div  style="display: inline-block;">
+						<figure>
+							<img height="200" width="200" src="img/orca.jpg" alt="Orca logo.">
+							<cite><a href="http://portale.siva.it/en-GB/databases/products/detail/id-19185">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Screen magnifiers</h2>
+					<div>
+						<figure class="center">
+							<img src="img/zoom.png" alt="Screen magnifier in Mac OS.">
+							<cite><a href="http://www.zoomitapp.com/">Image source</a></cite>
+						</figure>
+					</div>
+					<div style="display: inline-block;">
+						<figure>
+							<img src="img/zoom2.jpg" alt="Screen magnifier in Windows 8.">
+							<cite><a href="https://www.microsoft.com/enable/products/windows8/">Image source</a></cite>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Braille displays</h2>
+					<div>
+						<figure class="center">
+							<img src="img/braille2.jpg" alt="Braille Memo BM46 40 cell Braille display.">
+							<cite><a href="https://www.flickr.com/photos/kazuhito/132436943">Image source</a></cite>
+						</figure>
+					</div>
+					<figure class="center">
+						<img src="img/braille.jpg" alt="Humanware Braille Notetaker.">
+						<cite><a href="https://www.flickr.com/photos/jpasden/2705451575">Image source</a></cite>
+					</figure>
+				</section>
+				<section>
+					<h2>Affordable Braille display</h2>
+					<figure class="center">
+						<img src="img/orbit-braille.jpg" alt="Neil Jarvis from the RNZFB holding the new, affordable Orbit Braille display.">
+						<cite><a href="https://blindfoundation.org.nz/tech-innovation/first-affordable-braille-reader-launched/">Image source</a></cite>
+					</figure>
+					<aside class="notes">
+						<p>Even the simplest of Braille displays have costed thousands of dollars. This year, a new model, the Orbit, has been released with a cost of approximately NZD$700. It takes flash cards, and is USB and Bluetooth enabled.</p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Web Accessibility Standard</h2>
+					<p class="yellow big3"><span class="green" aria-hidden="true">√</span> <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a></p>
+					<div class="center"><img src="img/nzgwas.png" alt="Screenshot of NZ Government Web Accessibility Standard web page." width="500"></div>
+					<aside class="notes">
+						<p>New Zealand Government websites are required to conform to WCAG 2.1 Level A and AA requirements. If you design/develop websites for NZ Government agencies, you should already be building to level of accessibility.</p>
+					</aside>
+				</section>
+				<section>
+					<div>
+						<img src="img/w3c.png" alt=""> <h2>Web Content Accessibility Guidelines (WCAG) 2.1</h2>
+					</div>
+					<div>
+						<ul>
+							<li><span class="big2 yellow">P</span>erceivable</li>
+							<li><span class="big2 yellow">O</span>perable</li>
+							<li><span class="big2 yellow">U</span>nderstandable</li>
+							<li><span class="big2 yellow">R</span>obust</li>
+						</ul>
+					</div>
+					<aside class="notes">
+						<p>The Web Content Accessible Guidelines (WCAG) 2.1 from the W3C is a collection of testable requirements for building accessible websites.</p>
+					</aside>
+				</section>
+				<section>
+					<h2>How does WCAG translate to accessible content?</h2>
+					<p class="fragment green big3">Answer #1: <span class="yellow">Well-written content</span></p>
+				</section>
+				<section>
+					<h2>WCAG SC 1.1.1 Non-text content</h2>
+					<p style="font-style:italic;">All <span class="yellow">non-text content</span> that is presented to the user has a <span class="yellow">text alternative</span> that serves the <span class="yellow">equivalent purpose</span>.</p>
+					<ul>
+						<li class="fragment"><span class="green">Images:</span>
+							<ul>
+								<li><code class="yellow">alt</code> attribute for short description (~150 chars max)</li>
+								<li>long descriptions when <code class="yellow">alt</code> won't cut it</li>
+								<li class="fragment">see the HTML5 spec:<br> <a href="https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text">Requirements for providing text to act as an alternative for images</a></li>
+							</ul>
+						</li>
+						<li class="fragment"><span class="green">Audio/video:</span> captions and transcripts</li>
+					</ul>	
+				</section>
+				<section>
+					<h2>WCAG SC 2.4.4 Link purpose (In context)</h2>
+					<p style="font-style:italic;">The <span class="yellow">purpose of each link</span> can be determined from the <span class="yellow">link text alone</span> or from the link text together with its programmatically determined link context.</p>
+					<div class="float-left" style="font-size: 0.75em; width: 330px; border: 1px solid #fff; padding: 10px;">
+						<h3>Poor link text</h3>
+						<ul>
+							<li><a href="#">Click here</a></li>
+							<li><a href="#">Here</a></li>
+							<li><a href="#">More</a></li>
+							<li><a href="#">Read more...</a></li>
+							<li><a href="#">Click here for more</a></li>
+						</ul>
+					</div>
+					<div class="float-right" style="font-size: 0.75em; width: 560px;  border: 1px solid #fff; padding: 10px;">
+						<h3>Good link text</h3>
+						<ul>
+							<li>Find out about the <a href="#">Treaty of Waitangi</a></li>
+							<li>Visit <a href="#">Te Ara’s history pages</a></li>
+							<li>More about the <a href="#">Treaty settlement process</a></li>
+							<li><a href="#">Buy tickets to Te Papa events</a></li>
+							<li><a href="#">Search historic locations in New Zealand</a></li>
+						</ul>
+					</div>
+				</section>
+				
+				<section>
+					<h2>How is web content made accessible?</h2>
+					<p class="fragment green big3">Answer #2: <span class="yellow">Well-designed UI</span></p>
+				</section>
+				<section>
+					<h2>WCAG SC 1.4.3 Contrast (minimum)</h2>
+					<p style="font-style:italic;">The <span class="yellow">visual presentation of text</span> and images of text has a <span class="yellow">luminosity contrast ratio</span> of at least <span class="yellow">4.5:1</span>.</p>
+					<div class="float-left fragment" style="border: 2px solid #fff; width: 460px;">
+						<p style=" color: #666;">This text has low contrast and is difficult to read</p>
+						<p>Contrast ratio 2.7:1 </p>
+					</div>
+					<div class="float-right fragment" style="width: 460px; border: 2px solid #fff; ">
+						<p class="green">This text has high contrast and is easy to read</p>
+						<p>Contrast ratio 11.6:1</p>
+					</div>
+					<ul style="margin-top: 40px; clear: both;" class="yellow fragment">
+						<li>Only 3:1 ratio for large text (~19px and bold, or 24px)</li>
+						<li>Text in logos or brand names are exempt</li>
+					</ul>
+				</section>
+				<section>
+					<h2>WCAG SC 2.4.7 Focus visible</h2>
+					<p style="font-style:italic;">Any keyboard operable user interface has a mode of operation where the <span class="yellow">keyboard focus indicator is visible</span>.</p>
+					<div class="center fragment" style="text-align: left; background: white; display: inline-block; padding: 10px 20px 0;">
+						<style scoped>
+							.reveal a.defaultOutline:focus {outline: 1px dotted #999; background: white;}
+							.reveal a.noOutline:focus {outline: none; background: white;}
+						</style>
+						<p><a class="noOutline" href="#" style="color: #0072E8">Link with no focus indicator</a></p>
+						<p><a class="defaultOutline" href="#" style="color: #0072E8;">Link with default outline focus indicator</a></p>
+						<p><a href="#" style="color: #0072E8;">Link with custom focus indicator</a></p>
+					</div>
+				</section>
+				<section>
+					<h2>WCAG SC 1.4.1 Use of color</h2>
+					<p style="font-style:italic;">Color is <span class="yellow">not used</span> as the <span class="yellow">only visual means</span> of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</p>
+					<p class="fragment big2 green">Especially links!</p>
+					<p class="fragment">Here's some text with <a href="#" style="color: #00FFFF; text-decoration: none;">a link</a> distinguished only by colour. </p>
+					<div> 
+						<p class="fragment yellow">Visually indicate links in other ways. For example,</p>
+						<ul>
+							<li class="fragment"><a href="#">link with an underline</a></li>
+							<li class="fragment"><a href="#" style="text-decoration: none; background: #666; color: #fff;">link with a highlight</a></li>
+							<li class="fragment"><a href="#" style="text-decoration: none; color: #8888FE;">link with contrast ratio of >=3:1</a> with non-link text</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2>How is web content made accessible?</h2>
+					<p class="fragment green big3">Answer #3: <span class="yellow">Proper HTML</span></p>
+				</section>
+				<section>
+					<h2>WCAG SC 1.3.1 Info and relationships</h2>
+					<p style="font-style:italic;">Information, structure, and relationships <span class="yellow">conveyed through presentation</span> can be <span class="yellow">programmatically determined</span> or are available in text.</p>
+				</section>
+				<section>
+					<h2>Semantic structure</h2>
+					<div class="center" style="display: inline-block; width: 70%;"><pre><code data-trim> 
+&lt;h3&gt;Types of pet&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="/cat/"&gt;cat&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/dog/"&gt;dog&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/kunekune/"&gt;kunekune&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+					</code></pre></div>
+					<div>
+						<h3 class="yellow">Types of pet</h3>
+						<ul>
+							<li><a href="/cat/">cat</a></li>
+							<li><a href="/dog/">dog</a></li>
+							<li><a href="/kunekune/">kunekune</a></li>
+						</ul>
+					</div>						
+				</section>
+				<section>
+					<h2>WCAG SC 4.1.2 Name, role, value</h2>
+					<p style="font-style:italic;">For all user interface components:</p>
+					<ul>
+						<li><span class="yellow">name and role</span> can be programmatically determined</li>
+						<li><span class="yellow">states, properties, and values</span> can be programmatically set</li>
+						<li><span class="yellow">notification of changes</span> to these items is available to user agents, including	assistive technologies</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Roles, states, and properties</h2>
+					<div>
+						<div class="left"><pre><code data-trim class="html"> 
+&lt;form&gt;
+  &lt;fieldset&gt;
+     &lt;legend&gt;Do you like cats?&lt;/legend&gt;
+     &lt;input type=&quot;radio&quot; name=&quot;cats&quot; id=&quot;yes&quot; value=&quot;yes&quot; checked&gt;
+     &lt;label for=&quot;yes&quot;&gt;Yes&lt;/label&gt;
+     &lt;input type=&quot;radio&quot; name=&quot;cats&quot; id=&quot;no&quot; value=&quot;no&quot;&gt;
+     &lt;label for=&quot;no&quot;&gt;No&lt;/label&gt;
+  &lt;/fieldset&gt;
+  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+&lt;/form&gt;
+						</code></pre></div>
+						<div>
+							<form style="margin: 10px; padding: 10px; border: 1px solid #999; text-align: left; display: inline-block; width: 400px;">
+								<fieldset>
+									<legend class="yellow">Do you like cats?</legend>
+									<input style="vertical-align: middle" type="radio" name="cats" id="yes" value="yes" checked>
+									<label for="yes">Yes</label>
+									<br>
+									<input style="vertical-align: middle" type="radio" name="cats" id="no" value="no">
+									<label for="no">No</label>
+								</fieldset>
+								<input type="submit" value="Submit"  class="submit">
+							</form>
+						</div>
+					</div>										
+				</section>
+				<section>
+					<h2>WCAG SC 2.1.1 Keyboard</h2>
+					<p style="font-style:italic;">All functionality of the content is <span class="yellow">operable through a keyboard interface</span>.</p>
+				</section>
+				<section>
+					<h2>Keyboard accessibility</h2>
+					<h3 class="yellow">Types of pet</h3>
+					<ul>
+						<li><a href="/cat/">cat</a></li>
+						<li><a href="/dog/">dog</a></li>
+						<li><a href="/kunekune/">kunekune</a></li>
+					</ul>
+					<div>
+						<form style="margin: 10px; padding: 10px; border: 1px solid #999; text-align: left; display: inline-block; width: 400px;">
+							<fieldset>
+								<legend class="yellow">Do you like cats?</legend>
+								<input style="vertical-align: middle" type="radio" name="cats" id="yes2" value="yes" checked>
+								<label for="yes2">Yes</label>
+								<br>
+								<input style="vertical-align: middle" type="radio" name="cats" id="no2" value="no">
+								<label for="no2">No</label>
+							</fieldset>
+							<input type="submit" value="Submit" class="submit">
+						</form>
+					</div>
+				</section>
+				<section>
+					<h2>And at the organisation or project level?</h2>
+					<p class="green big2">How can we embed accessibility?</p>
+				</section>
+				<section>
+					<h2>Embedding accessibility</h2>
+					<ul class="yellow">
+						<li>Executive-level buy-in</li>
+						<li>Establish principles and policies</li>
+						<li>Assess current knowledge and skill</li>
+						<li>Training to fill gaps</li>
+						<li>Access to expertise</li>
+						<li>Integrate accessibility at every step</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Assessment?</h2>
+					<p class="green big2">Web Standards Self-Assessment</p>
+					<ul class="yellow">
+						<li>2011 — very simple</li>
+						<li>2014 — comprehensive and difficult</li>
+						<li>2017 — practical and reusable</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Self-Assessment outcomes</h2>
+					<ul>
+						<li class="yellow">Significant variability in knowledge and skill.</li>
+						<li class="green">Both govt agencies AND web vendors.</li>
+						<li class="yellow">Top 10 most common issues.</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Next steps?</h2>
+					<p class="yellow big2">More strategic, less tactical!</p>
+					<p class="green big2">&rarr; Investigate what the barriers are.</p>
+				</section>
+				
+				<section>
+					<h2>Questions?</h2>
+					<p><span class="green">Jason Kiss</span><br><span class="yellow">Principal Advisor Accessibility</span><br>Dept. of Internal Affairs<br><a href="mailto:web.standards@dia.govt.nz">web.standards@dia.govt.nz</a></p>
+				</section>
+				<section>
+					<h2>Copyright</h2>
+					<p><small><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Attribution 4.0 International Licence" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>Crown copyright ©. Copyright material in <span property="http://purl.org/dc/terms/title">this presentation</span> is protected by copyright owned by the <a href="https://www.dia.govt.nz/" vocab="http://creativecommons.org/ns#" property="attributionURL"><span property="attributionName">Department of Internal Affairs on behalf of the Crown</span></a>. Unless indicated otherwise for specific items or collections of content (either below or within specific items or collections), this copyright material is licensed for re-use under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>. In essence, you are free to copy, distribute and adapt the material, as long as you attribute it to the Department of Internal Affairs and abide by the other licence terms. Please note that this licence does not apply to any logos, emblems and trade marks in the presentation or to the presentation's design elements. Where a photograph used in this presentation is accompanied by a link to its source, see the photograph's source for its copyright and licence terms.</small></p>
+					<p><small>The framework used to build this presentation, <a href="https://github.com/hakimel/reveal.js">Reveal.js</a> is protected by copyright owned by <a href="http://hakim.se">Hakim El Hattab</a> and licensed for use under the <a href="LICENSE.txt">MIT License</a>. </small></p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/jk-custom.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				showNotes: false,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

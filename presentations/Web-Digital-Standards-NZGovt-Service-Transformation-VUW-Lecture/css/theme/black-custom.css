@@ -1,0 +1,479 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #222; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #222;
+  background-color: #222; }
+
+.reveal {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #fff; }
+
+::selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none; }
+
+.reveal .slides section,
+.reveal .slides section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 1.75em; }
+
+.reveal h2 {
+  font-size: 1.6em; }
+
+.reveal h3 {
+  font-size: 1.3em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+.reveal sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #42affa;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #8dcffc;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #068de9; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #42affa;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: #42affa; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #42affa; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+  .backgrounds {
+    background-color: #222; } }
+
+/* Customisations */
+.offscreen {
+  position: absolute;
+  left: -9999em; }
+
+.reveal .slides > section, .reveal .slides > section > section {
+  padding: 0; }
+
+.reveal ol, .reveal dl, .reveal ul {
+  margin: 0 0 1em 1em; }
+
+.reveal a:link {
+  color: #0895F2;
+  text-decoration: underline; }
+
+.reveal a:hover, .reveal a:focus {
+  color: #8dcffc;
+  background-color: #000; }
+
+.reveal section img {
+  margin: 0;
+  border: none;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: none; }
+
+.reveal .controls {
+  background: rgba(34, 34, 34, 0.5); }
+
+.reveal .controls .navigate-left.enabled,
+.reveal .controls .navigate-right.enabled {
+  color: #5590C8;
+  opacity: 1; }
+
+.reveal .controls .navigate-left.enabled:hover, .reveal .controls .navigate-left.enabled:focus {
+  color: #ff0; }
+
+.reveal .controls .navigate-right.enabled:hover, .reveal .controls .navigate-right.enabled:focus {
+  color: #ff0; }
+
+.reveal .controls .navigate-up.enabled:hover, .reveal .controls .navigate-up.enabled:focus {
+  color: #ff0; }
+
+.reveal .controls .navigate-down.enabled:hover, .reveal .controls .navigate-down.enabled:focus {
+  color: #ff0; }
+
+#s2 h2 svg {
+  display: block;
+  margin: 20px auto 0; }
+
+.reveal kbd {
+  color: #333;
+  background-color: #EDEDED;
+  border-color: #FAFAFA #DADADA #DADADA #EDEDED;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  line-height: 1.3;
+  padding: 0 2px 0 1px; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.right {
+  position: absolute;
+  left: 520px;
+  top: 0; }
+
+.middle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.reveal .margin-left {
+  margin-left: 20px; }
+
+.reveal .yellow {
+  color: #FFFF6B; }
+
+.reveal .black {
+  color: #000; }
+
+.reveal .green {
+  color: #72FF6D; }
+
+.reveal .big {
+  font-size: 3em; }
+
+.reveal .big2 {
+  font-size: 1.6em; }
+
+.reveal .big3 {
+  font-size: 1.2em; }
+
+.reveal .big4 {
+  font-size: 0.8em; }
+
+.reveal .small {
+  font-size: 0.5em; }
+
+.reveal q {
+  quotes: '"' '"' "'" "'"; }
+
+.reveal blockquote {
+  padding: 20px; }
+
+.reveal .hljs {
+  background-color: #000; }
+
+.reveal .hljs-keyword, .reveal .hljs-selector-tag, .reveal .hljs-tag {
+  color: #C5CC45; }
+
+.reveal .submit {
+  background-color: #fff;
+  font-size: 0.6em; }
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 440px;
+  text-align: right; }
+
+.reveal input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  background: #fff;
+  border-radius: 50%; }
+
+.reveal input[type="radio"]:checked {
+  appearance: none;
+  border-width: 5px;
+  border-color: #666;
+  background: #f00; }
+
+.speaker-controls-notes .value {
+  font-size: 0.8em; }
+
+.reveal cite {
+  display: block; }
+
+.reveal figure {
+  position: relative; }
+
+.reveal figure.center {
+  display: inline-block;
+  margin: 0 auto; }
+
+.reveal figure img {
+  display: block; }
+
+.reveal figure cite {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 0.2em;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-style: normal; }
+
+.reveal figure cite a:link, .reveal figure cite a:visited {
+  color: rgba(255, 255, 255, 0.8); }
+
+.reveal table th, .reveal table td {
+  color: #000;
+  text-align: center;
+  border: 1px solid #000; }
+
+.reveal table th {
+  background: #eaeaea; }
+
+.reveal table td {
+  background: #fff; }
+
+.reveal .checkbox {
+  display: inline-block;
+  background: #222 url(../../img/checkbox.png) no-repeat 7px 24px;
+  padding: 5px 5px 5px 28px; }
+
+.reveal .checkbox.checked, .reveal .checkbox[aria-checked="true"] {
+  background: url(../../img/checkbox-checked.png) no-repeat 7px 24px;
+  padding-left: 28px; }
+
+.reveal section.past a,
+.reveal section.past input,
+.reveal section.past div[tabindex="0"],
+.reveal section.future a,
+.reveal section.future input,
+.reveal section.future div[tabindex="0"] {
+  display: none; }
