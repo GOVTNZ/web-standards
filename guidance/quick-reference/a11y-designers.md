@@ -2,7 +2,6 @@
 layout: default
 title: Web accessibility quick reference for designers
 draft: true
-draft_path: /guidance/design-and-development/quick-reference-guides/
 ---
 
 ## Introduction
