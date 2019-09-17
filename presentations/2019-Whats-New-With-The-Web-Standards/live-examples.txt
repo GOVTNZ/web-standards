@@ -16,5 +16,5 @@
 	-Scott O'Hara (https://scottaohara.github.io/a11y_tooltips/)
 
 4.1.3 Status messages: 
-	-Design System 'Copy code' functionality (https://design-system-alpha.digital.govt.nz/components/Button/
+	-Design System 'Copy code' functionality (https://design-system-alpha.digital.govt.nz/components/Button/)
 
