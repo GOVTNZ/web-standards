@@ -42,7 +42,7 @@ Simple tables have one row of column headers and maybe one column of row headers
     </tbody>
 </table> 
 
-For an example of a simple table using `<th>` and `scope` attributes for both column and row headers, see the [table for the Web Accessibility Standard's implementation schedule](https://webtoolkit.govt.nz/guidance/about-the-standards/about-the-web-accessibility-standard/#implementation). 
+For an example of a simple table using `<th>` and `scope` attributes for both column and row headers, see the [Table with header cells in the top row and first column from the W3C](https://www.w3.org/WAI/tutorials/tables/two-headers/#table-with-header-cells-in-the-top-row-and-first-column). 
 
 ###### Complex tables
 
@@ -92,7 +92,7 @@ If you want to make complex tables accessible, use:
 
 For tables with multi-level headers, use `headers` and `id` attributes. Each column or row header cell should be given a unique `id` attribute value, and each data cell a `headers` attribute that references all the relevant header cells' `id` values.
 
-An example of this is the table at [http://www.treasury.govt.nz/budget/forecasts/hyefu2016/107.htm](http://www.treasury.govt.nz/budget/forecasts/hyefu2016/107.htm). 
+An example of this this [table from the Treasury](https://treasury.govt.nz/publications/efu/half-year-economic-and-fiscal-update-2019-html#section-3). 
 
 You can also use the ARIA `rowheader` or `columnheader` role on the header cell's element if a table uses:
 
